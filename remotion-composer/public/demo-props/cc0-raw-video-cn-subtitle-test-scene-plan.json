@@ -1,0 +1,23 @@
+{
+  "videoSrc": "talking-head/raw-video-cc0.webm",
+  "captions": [
+    {"word": "大家好，这是一个", "startMs": 750, "endMs": 2850},
+    {"word": "使用人工智能进行换脸的示例。", "startMs": 2850, "endMs": 5370},
+    {"word": "接下来，我会把自己的脸", "startMs": 6330, "endMs": 8270},
+    {"word": "换成著名演员汤姆·克鲁斯的脸。", "startMs": 8270, "endMs": 10370},
+    {"word": "这项技术有其自身的优点和缺点。", "startMs": 11350, "endMs": 15530},
+    {"word": "从合乎伦理的角度来说，", "startMs": 16850, "endMs": 19400},
+    {"word": "这项技术可以用于开展在线课程的机构。", "startMs": 19400, "endMs": 23910},
+    {"word": "而如果以不道德的方式使用，", "startMs": 24690, "endMs": 28100},
+    {"word": "它会带来许多弊端。", "startMs": 28100, "endMs": 30000},
+    {"word": "比如，一段视频可能被发送给你的朋友，", "startMs": 30000, "endMs": 32570},
+    {"word": "或被提交给某个机构，", "startMs": 32570, "endMs": 36000},
+    {"word": "从而给你带来许多不必要的麻烦。", "startMs": 36000, "endMs": 42270},
+    {"word": "因此，建议大家务必谨慎使用这项技术。", "startMs": 42830, "endMs": 48710},
+    {"word": "谢谢，希望你喜欢这个示例。", "startMs": 49210, "endMs": 51510}
+  ],
+  "overlays": [],
+  "wordsPerPage": 1,
+  "fontSize": 30,
+  "highlightColor": "#F8FAFC"
+}

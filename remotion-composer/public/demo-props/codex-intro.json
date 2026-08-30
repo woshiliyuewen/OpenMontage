@@ -1,0 +1,130 @@
+{
+  "theme": "flat-motion-graphics",
+  "cuts": [
+    {
+      "id": "codex-open",
+      "source": "",
+      "type": "hero_title",
+      "in_seconds": 0,
+      "out_seconds": 5,
+      "text": "Codex",
+      "heroSubtitle": "An AI teammate inside your workspace",
+      "backgroundColor": "#0B1020"
+    },
+    {
+      "id": "codex-context",
+      "source": "",
+      "type": "terminal_scene",
+      "in_seconds": 5,
+      "out_seconds": 12,
+      "terminalTitle": "workspace / OpenMontage",
+      "prompt": ">",
+      "accentColor": "#22D3EE",
+      "backgroundColor": "#0B1020",
+      "steps": [
+        { "kind": "cmd", "text": "codex read project context", "typeSpeed": 0.025, "holdSeconds": 0.2 },
+        { "kind": "out", "text": "scanned README.md, package files, tests", "holdSeconds": 0.25 },
+        { "kind": "out", "text": "detected app structure and local conventions", "holdSeconds": 0.25 },
+        { "kind": "pill", "text": "Context loaded", "color": "#22D3EE", "durationSeconds": 2.2 },
+        { "kind": "cmd", "text": "codex plan \"add the feature\"", "typeSpeed": 0.023, "holdSeconds": 0.2 },
+        { "kind": "out", "text": "plan: edit -> test -> inspect -> refine", "holdSeconds": 0.5 }
+      ]
+    },
+    {
+      "id": "codex-loop",
+      "source": "",
+      "type": "terminal_scene",
+      "in_seconds": 12,
+      "out_seconds": 22,
+      "terminalTitle": "implementation loop",
+      "prompt": "$",
+      "accentColor": "#34D399",
+      "backgroundColor": "#0B1020",
+      "steps": [
+        { "kind": "cmd", "text": "apply_patch src/feature.ts", "typeSpeed": 0.018, "holdSeconds": 0.15 },
+        { "kind": "out", "text": "+ add focused implementation", "holdSeconds": 0.15 },
+        { "kind": "out", "text": "+ keep existing patterns intact", "holdSeconds": 0.2 },
+        { "kind": "pill", "text": "Files edited", "color": "#34D399", "durationSeconds": 2.0 },
+        { "kind": "cmd", "text": "npm test", "typeSpeed": 0.025, "holdSeconds": 0.15 },
+        { "kind": "out", "text": "1 failing test: edge case uncovered", "holdSeconds": 0.25 },
+        { "kind": "cmd", "text": "codex inspect failure && patch", "typeSpeed": 0.018, "holdSeconds": 0.15 },
+        { "kind": "out", "text": "all tests passing", "holdSeconds": 0.45 },
+        { "kind": "pill", "text": "Verified", "color": "#A7F3D0", "durationSeconds": 2.0 }
+      ]
+    },
+    {
+      "id": "codex-compare",
+      "source": "",
+      "type": "comparison",
+      "in_seconds": 22,
+      "out_seconds": 29,
+      "title": "The collaboration model",
+      "leftLabel": "You",
+      "leftValue": "Set the goal",
+      "rightLabel": "Codex",
+      "rightValue": "Handle the loop",
+      "accentColor": "#A78BFA",
+      "backgroundColor": "#111827",
+      "color": "#F8FAFC"
+    },
+    {
+      "id": "codex-kpis",
+      "source": "",
+      "type": "kpi_grid",
+      "in_seconds": 29,
+      "out_seconds": 35,
+      "title": "From request to verified change",
+      "chartData": [
+        { "label": "Repo context", "value": 100, "change": 24, "suffix": "%" },
+        { "label": "Command loop", "value": 4, "change": 2, "suffix": " steps" },
+        { "label": "Handoff friction", "value": 0, "change": -80, "suffix": "" }
+      ],
+      "columns": 3,
+      "chartColors": ["#22D3EE", "#34D399", "#F59E0B"],
+      "chartAnimation": "cascade",
+      "backgroundColor": "#0B1020"
+    },
+    {
+      "id": "codex-close",
+      "source": "",
+      "type": "callout",
+      "in_seconds": 35,
+      "out_seconds": 40,
+      "title": "Codex",
+      "text": "Ship code with an AI teammate.",
+      "callout_type": "tip",
+      "accentColor": "#22D3EE",
+      "backgroundColor": "#0B1020",
+      "color": "#F8FAFC"
+    }
+  ],
+  "overlays": [
+    {
+      "type": "section_title",
+      "in_seconds": 5.2,
+      "out_seconds": 11.6,
+      "text": "Reads the repo",
+      "subtitle": "Uses local files, commands, and conventions",
+      "accentColor": "#22D3EE"
+    },
+    {
+      "type": "section_title",
+      "in_seconds": 12.2,
+      "out_seconds": 21.6,
+      "text": "Executes the loop",
+      "subtitle": "Edit, run, inspect, refine",
+      "accentColor": "#34D399"
+    },
+    {
+      "type": "stat_reveal",
+      "in_seconds": 29.3,
+      "out_seconds": 34.4,
+      "text": "40s",
+      "subtitle": "One focused story",
+      "accentColor": "#F59E0B",
+      "position": "bottom-right"
+    }
+  ],
+  "captions": [],
+  "audio": {}
+}

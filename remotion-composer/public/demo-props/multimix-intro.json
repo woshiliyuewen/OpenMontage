@@ -1,0 +1,154 @@
+{
+  "themeConfig": {
+    "primaryColor": "#0EA5A4",
+    "accentColor": "#F59E0B",
+    "backgroundColor": "#101418",
+    "surfaceColor": "#18212A",
+    "textColor": "#F7FAFC",
+    "mutedTextColor": "#A8B3C2",
+    "headingFont": "Microsoft YaHei",
+    "bodyFont": "Microsoft YaHei",
+    "monoFont": "JetBrains Mono",
+    "chartColors": ["#0EA5A4", "#F59E0B", "#84CC16", "#EF4444", "#38BDF8", "#F97316"],
+    "springConfig": { "damping": 18, "stiffness": 110, "mass": 1 },
+    "transitionDuration": 0.35,
+    "captionHighlightColor": "#F59E0B",
+    "captionBackgroundColor": "rgba(16, 20, 24, 0.82)"
+  },
+  "cuts": [
+    {
+      "id": "hook-real-assets",
+      "source": "",
+      "type": "text_card",
+      "in_seconds": 0,
+      "out_seconds": 8,
+      "text": "本地商家不缺素材，缺的是持续产出内容的系统",
+      "fontSize": 64,
+      "color": "#F7FAFC",
+      "backgroundVideo": "multimix-intro/storefront.mp4",
+      "backgroundVideoStart": 0,
+      "backgroundOverlay": 0.58,
+      "accentColor": "#0EA5A4"
+    },
+    {
+      "id": "problem-scattered-materials",
+      "source": "",
+      "type": "callout",
+      "in_seconds": 8,
+      "out_seconds": 18,
+      "title": "真正卡住的地方",
+      "text": "今天该发什么？哪些素材能用？怎样变成持续获客的短视频？",
+      "callout_type": "warning",
+      "accentColor": "#F59E0B",
+      "backgroundColor": "#FFFBEB",
+      "color": "#111827",
+      "backgroundVideo": "multimix-intro/construction.mp4",
+      "backgroundVideoStart": 0,
+      "backgroundOverlay": 0.62
+    },
+    {
+      "id": "positioning-execution-layer",
+      "source": "",
+      "type": "hero_title",
+      "in_seconds": 18,
+      "out_seconds": 28,
+      "text": "multiMix",
+      "heroSubtitle": "商家视频内容生产执行层",
+      "backgroundImage": "multimix-intro/slide-1.png",
+      "backgroundOverlay": 0.72,
+      "accentColor": "#0EA5A4"
+    },
+    {
+      "id": "workflow-terminal",
+      "source": "",
+      "type": "terminal_scene",
+      "in_seconds": 28,
+      "out_seconds": 40,
+      "terminalTitle": "multiMix / content execution loop",
+      "prompt": ">",
+      "accentColor": "#0EA5A4",
+      "backgroundColor": "#101418",
+      "steps": [
+        { "kind": "cmd", "text": "读取商家素材库", "typeSpeed": 0.035, "holdSeconds": 0.2 },
+        { "kind": "out", "text": "识别：门店 / 产品 / 施工 / 案例 / 品牌露出", "holdSeconds": 0.3 },
+        { "kind": "pill", "text": "素材理解", "color": "#0EA5A4", "durationSeconds": 2.0 },
+        { "kind": "cmd", "text": "拆解外部高播放内容", "typeSpeed": 0.035, "holdSeconds": 0.2 },
+        { "kind": "out", "text": "提取：选题、开头、节奏、转化结构", "holdSeconds": 0.3 },
+        { "kind": "pill", "text": "情报拆解", "color": "#F59E0B", "durationSeconds": 2.0 },
+        { "kind": "cmd", "text": "生成脚本 + 分镜 + 素材匹配", "typeSpeed": 0.03, "holdSeconds": 0.2 },
+        { "kind": "out", "text": "输出：字幕、封面、多版本发布内容", "holdSeconds": 0.6 },
+        { "kind": "pill", "text": "编排生成", "color": "#84CC16", "durationSeconds": 2.2 }
+      ]
+    },
+    {
+      "id": "editing-and-reuse",
+      "source": "",
+      "type": "comparison",
+      "in_seconds": 40,
+      "out_seconds": 52,
+      "title": "不是一次性生成，而是持续复用",
+      "leftLabel": "传统方式",
+      "leftValue": "单条交付",
+      "rightLabel": "multiMix",
+      "rightValue": "资产循环",
+      "accentColor": "#84CC16",
+      "backgroundImage": "multimix-intro/slide-3.png",
+      "backgroundOverlay": 0.76,
+      "backgroundColor": "#101418",
+      "color": "#F7FAFC"
+    },
+    {
+      "id": "business-value",
+      "source": "",
+      "type": "kpi_grid",
+      "in_seconds": 52,
+      "out_seconds": 61,
+      "title": "高客单本地商家的获客内容资产",
+      "chartData": [
+        { "label": "真实素材", "value": 100, "change": 32, "suffix": "%" },
+        { "label": "多轮编辑", "value": 4, "change": 2, "suffix": " 次" },
+        { "label": "复用沉淀", "value": 12, "change": 48, "suffix": " 月" }
+      ],
+      "columns": 3,
+      "chartColors": ["#0EA5A4", "#F59E0B", "#84CC16"],
+      "chartAnimation": "cascade",
+      "backgroundColor": "#F7FAFC"
+    }
+  ],
+  "overlays": [
+    {
+      "type": "section_title",
+      "in_seconds": 0.6,
+      "out_seconds": 7.4,
+      "text": "真实素材",
+      "subtitle": "门店、产品、案例、施工现场",
+      "accentColor": "#0EA5A4",
+      "position": "top-left"
+    },
+    {
+      "type": "section_title",
+      "in_seconds": 18.4,
+      "out_seconds": 27.2,
+      "text": "从素材到可发布内容",
+      "subtitle": "不是通用视频生成器",
+      "accentColor": "#F59E0B",
+      "position": "bottom-left"
+    },
+    {
+      "type": "stat_reveal",
+      "in_seconds": 40.4,
+      "out_seconds": 51.4,
+      "text": "资产复用",
+      "subtitle": "采纳、修改、发布反馈进入下一次生成",
+      "accentColor": "#84CC16",
+      "position": "bottom-right"
+    }
+  ],
+  "captions": [],
+  "audio": {
+    "narration": {
+      "src": "multimix-intro/narration.mp3",
+      "volume": 1
+    }
+  }
+}
