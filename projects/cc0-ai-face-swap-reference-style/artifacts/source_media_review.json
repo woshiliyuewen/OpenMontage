@@ -1,0 +1,24 @@
+{
+  "version": "1.0",
+  "files": [
+    {
+      "path": "C:\\Users\\24566\\Documents\\OpenMontage\\projects\\cc0-raw-video-cn-subtitle-test\\renders\\final.mp4",
+      "media_type": "video",
+      "reviewed": true,
+      "technical_probe": {"duration_seconds":45.376,"resolution":"848x480","fps":30,"codec":"h264","audio_codec":"aac","sample_rate":48000,"channels":2,"file_size_bytes":6811616,"bitrate_kbps":1200.9},
+      "quality_risks": [],
+      "representative_frames": ["C:/Users/24566/Documents/OpenMontage/projects/cc0-raw-video-cn-subtitle-test/qa/source-final-sheet.jpg"],
+      "content_summary": "Video file: 45.4s at 848x480, with stereo AAC audio; centered talking head with baked Chinese captions.",
+      "usable_for": [
+        "hero footage",
+        "b-roll",
+        "source dialogue",
+        "source audio"
+      ]
+    }
+  ],
+  "summary": "final.mp4: 45.4s 848x480 talking-head video with English source dialogue and Chinese captions; clean master without baked captions is available in the source project.",
+  "planning_implications": [
+    "Source video available — consider source-led or hybrid production approach"
+  ]
+}

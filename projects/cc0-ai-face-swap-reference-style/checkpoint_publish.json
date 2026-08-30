@@ -1,0 +1,82 @@
+{
+  "version": "1.0",
+  "project_id": "cc0-ai-face-swap-reference-style",
+  "pipeline_type": "hybrid",
+  "stage": "publish",
+  "status": "completed",
+  "timestamp": "2026-08-12T07:59:07.679986+00:00",
+  "checkpoint_policy": "guided",
+  "human_approval_required": true,
+  "human_approved": true,
+  "artifacts": {
+    "publish_log": {
+      "version": "1.0",
+      "entries": [
+        {
+          "platform": "local-master",
+          "status": "exported",
+          "visibility": "private",
+          "export_path": "export/ai-face-swap-editorial-master-1080p.mp4",
+          "timestamp": "2026-08-12T07:58:05.0337585Z",
+          "metadata_used": {
+            "title": "AI\u6362\u8138\uff1a\u7528\u9014\u3001\u98ce\u9669\u4e0e\u4f7f\u7528\u8fb9\u754c",
+            "description": "\u4ee5\u539f\u59cb\u4eba\u7269\u8bb2\u89e3\u4e3a\u4e3b\u7ebf\uff0c\u914d\u5408\u4e2d\u6587\u5b57\u5e55\u3001\u5173\u952e\u8bcd\u5f3a\u8c03\u3001\u8bc1\u636e\u4fe1\u606f\u5361\u3001\u7528\u9014/\u98ce\u9669\u5bf9\u6bd4\u53ca\u7ed3\u8bba\u5361\u3002",
+            "hashtags": [
+              "AI\u6362\u8138",
+              "\u4eba\u5de5\u667a\u80fd",
+              "\u79d1\u6280\u4f26\u7406"
+            ],
+            "chapters": [
+              {
+                "start_seconds": 0,
+                "title": "\u6362\u8138\u793a\u4f8b"
+              },
+              {
+                "start_seconds": 9.45,
+                "title": "\u6b63\u5411\u7528\u9014\u4e0e\u6ee5\u7528\u98ce\u9669"
+              },
+              {
+                "start_seconds": 14.65,
+                "title": "\u5728\u7ebf\u8bfe\u7a0b\u573a\u666f"
+              },
+              {
+                "start_seconds": 28.2,
+                "title": "\u6ee5\u7528\u98ce\u9669\u94fe\u8def"
+              },
+              {
+                "start_seconds": 37,
+                "title": "\u6700\u7ec8\u5efa\u8bae"
+              }
+            ]
+          }
+        }
+      ],
+      "metadata": {
+        "master_output": "export/ai-face-swap-editorial-master-1080p.mp4",
+        "derivative_outputs": [],
+        "source_mix_notes": "Source-led presenter video with timed editorial motion-graphic support; no generated imagery, narration, or music.",
+        "platform_copy_map": {},
+        "estimated_cost_usd": 0
+      }
+    }
+  },
+  "style_playbook": "clean-professional",
+  "review": {
+    "decision": "PASS",
+    "round": 1,
+    "findings": [],
+    "summary": {
+      "critical": 0,
+      "suggestions": 0,
+      "success_criteria": "met"
+    }
+  },
+  "cost_snapshot": {
+    "spent_usd": 0,
+    "estimated_total_usd": 0
+  },
+  "metadata": {
+    "approval_basis": "User explicitly pre-authorized the full run and requested no questions.",
+    "export_ready": true
+  }
+}

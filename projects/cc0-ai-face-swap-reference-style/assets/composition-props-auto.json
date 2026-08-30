@@ -1,0 +1,232 @@
+{
+  "renderer_family": "presenter",
+  "playbook": "clean-professional",
+  "videoSrc": "cc0-ai-face-swap-reference-style/footage-cut.mp4",
+  "durationSeconds": 45.1,
+  "editorialMode": true,
+  "soundSrc": "cc0-ai-face-swap-reference-style/editorial-cue.wav",
+  "soundCueSeconds": [
+    9.45,
+    21.55,
+    28.2,
+    37.0
+  ],
+  "captions": [
+    {
+      "word": "大家好",
+      "startMs": 189,
+      "endMs": 1450
+    },
+    {
+      "word": "这是一个使用人工智能",
+      "startMs": 1450,
+      "endMs": 3200,
+      "highlight": "人工智能"
+    },
+    {
+      "word": "进行换脸的示例",
+      "startMs": 3200,
+      "endMs": 4809,
+      "highlight": "换脸"
+    },
+    {
+      "word": "接下来，我会把自己的脸",
+      "startMs": 5128,
+      "endMs": 6600
+    },
+    {
+      "word": "换成一位著名演员",
+      "startMs": 6600,
+      "endMs": 7850,
+      "highlight": "著名演员"
+    },
+    {
+      "word": "汤姆·克鲁斯的脸",
+      "startMs": 7850,
+      "endMs": 9105,
+      "highlight": "汤姆·克鲁斯"
+    },
+    {
+      "word": "这项技术",
+      "startMs": 9511,
+      "endMs": 11150
+    },
+    {
+      "word": "有优点，也有缺点",
+      "startMs": 11150,
+      "endMs": 13691,
+      "highlight": "优点"
+    },
+    {
+      "word": "从合乎伦理的角度",
+      "startMs": 14554,
+      "endMs": 16550,
+      "highlight": "合乎伦理"
+    },
+    {
+      "word": "它可以服务于",
+      "startMs": 16550,
+      "endMs": 18400
+    },
+    {
+      "word": "开展在线课程的机构",
+      "startMs": 18400,
+      "endMs": 21227,
+      "highlight": "在线课程"
+    },
+    {
+      "word": "如果以不道德的方式使用",
+      "startMs": 21556,
+      "endMs": 23250,
+      "highlight": "不道德"
+    },
+    {
+      "word": "就会带来许多弊端",
+      "startMs": 23250,
+      "endMs": 25071,
+      "highlight": "弊端"
+    },
+    {
+      "word": "比如，一段伪造视频",
+      "startMs": 25071,
+      "endMs": 26550,
+      "highlight": "伪造视频"
+    },
+    {
+      "word": "可能被发送给你的朋友",
+      "startMs": 26550,
+      "endMs": 28151
+    },
+    {
+      "word": "或被提交给某个机构",
+      "startMs": 28151,
+      "endMs": 30600,
+      "highlight": "某个机构"
+    },
+    {
+      "word": "身份可能因此被误认",
+      "startMs": 30600,
+      "endMs": 33500,
+      "highlight": "被误认"
+    },
+    {
+      "word": "带来不必要的麻烦",
+      "startMs": 33500,
+      "endMs": 36555,
+      "highlight": "麻烦"
+    },
+    {
+      "word": "因此，请记住",
+      "startMs": 37115,
+      "endMs": 39100
+    },
+    {
+      "word": "务必谨慎使用这项技术",
+      "startMs": 39100,
+      "endMs": 42015,
+      "highlight": "谨慎使用"
+    }
+  ],
+  "overlays": [
+    {
+      "id": "kw-ai",
+      "type": "editorial_keyword",
+      "in_seconds": 0.35,
+      "out_seconds": 4.6,
+      "position": "right_panel",
+      "eyebrow": "今天的话题",
+      "text": "AI 换脸",
+      "accentColor": "#F6E94E",
+      "fontSize": 72,
+      "placement_mode": "face_safe_auto"
+    },
+    {
+      "id": "ev-target",
+      "type": "editorial_evidence",
+      "variant": "identity",
+      "in_seconds": 5.15,
+      "out_seconds": 9.15,
+      "position": "right_panel",
+      "eyebrow": "IDENTITY SHIFT / 对象",
+      "title": "本人 → 汤姆·克鲁斯",
+      "subtitle": "身份映射，而非真实本人",
+      "accentColor": "#F6E94E",
+      "fontSize": 40,
+      "placement_mode": "face_safe_auto"
+    },
+    {
+      "id": "compare",
+      "type": "editorial_comparison",
+      "in_seconds": 9.45,
+      "out_seconds": 13.95,
+      "position": "full_overlay",
+      "eyebrow": "同一项技术，两面结果",
+      "leftLabel": "正向用途",
+      "leftValue": "获得授权的教育、演示与创意表达",
+      "rightLabel": "滥用风险",
+      "rightValue": "未经授权的身份冒用、误导与现实伤害",
+      "accentColor": "#F6E94E"
+    },
+    {
+      "id": "ev-ethical",
+      "type": "editorial_evidence",
+      "variant": "course",
+      "in_seconds": 14.65,
+      "out_seconds": 20.95,
+      "position": "right_panel",
+      "eyebrow": "ETHICAL USE / 合乎伦理",
+      "title": "在线课程",
+      "subtitle": "为教学提供演示与内容支持",
+      "items": [
+        "教育机构",
+        "在线课堂",
+        "内容演示"
+      ],
+      "accentColor": "#F6E94E",
+      "fontSize": 48,
+      "placement_mode": "face_safe_auto"
+    },
+    {
+      "id": "kw-risk",
+      "type": "editorial_keyword",
+      "in_seconds": 21.55,
+      "out_seconds": 27.8,
+      "position": "right_panel",
+      "eyebrow": "技术没有立场",
+      "text": "用法决定后果",
+      "accentColor": "#F6E94E",
+      "fontSize": 58,
+      "placement_mode": "face_safe_auto"
+    },
+    {
+      "id": "ev-chain",
+      "type": "editorial_process",
+      "variant": "risk",
+      "in_seconds": 28.2,
+      "out_seconds": 36.65,
+      "position": "full_overlay",
+      "eyebrow": "MISUSE PATH / 滥用风险链路",
+      "title": "一次伪造，可能引发现实后果",
+      "subtitle": "接收者无法确认来源时，身份误认就可能进入现实决策。",
+      "items": [
+        "伪造内容",
+        "脱离来源",
+        "身份误认",
+        "现实损害"
+      ],
+      "accentColor": "#F6E94E",
+      "fontSize": 52
+    },
+    {
+      "id": "final",
+      "type": "editorial_final",
+      "in_seconds": 37.0,
+      "out_seconds": 45.1,
+      "position": "full_overlay",
+      "eyebrow": "最终建议 / THREE RULES",
+      "text": "谨慎使用，不止是提醒",
+      "subtitle": "技术的价值，取决于使用它的人",
+      "accentColor": "#F6E94E"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "version":"6.0",
+  "output_path":"C:\\Users\\24566\\Documents\\OpenMontage\\projects\\cc0-ai-face-swap-reference-style\\export\\ai-face-swap-editorial-v6-auto-placement-1080p.mp4",
+  "status":"pass",
+  "checks":{
+    "technical_probe":{"duration_seconds":45.376,"resolution":"1920x1080","fps":30,"codec":"H.264/AAC/yuv420p","file_size_bytes":19323767,"issues":[]},
+    "face_tracking":{"frames_sampled":269,"faces_detected":269,"method":"opencv_haar","issues":[]},
+    "placement":{"stable_per_overlay_interval":true,"left_right_evaluated":true,"center_fallback_available":true,"face_overlap_detected":false,"subtitle_overlap_detected":false,"issues":[]},
+    "audio":{"mean_volume_db":-26.5,"max_volume_db":-5.5,"clipping_detected":false,"issues":[]}
+  },
+  "issues_found":[],
+  "recommended_action":"present_to_user",
+  "metadata":{"pipeline":"hybrid","render_runtime":"remotion","finishing_runtime":"ffmpeg","external_api_used":false,"estimated_cost_usd":0}
+}

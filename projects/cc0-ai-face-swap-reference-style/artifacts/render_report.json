@@ -1,0 +1,41 @@
+{
+  "version": "1.0",
+  "outputs": [
+    {
+      "path": "renders/final-delivery.mp4",
+      "format": "mp4",
+      "codec": "h264",
+      "audio_codec": "aac",
+      "resolution": "1920x1080",
+      "fps": 30,
+      "duration_seconds": 45.376,
+      "file_size_bytes": 12240785,
+      "platform_target": "generic_hd"
+    }
+  ],
+  "warnings": [
+    "The supplied source image is 848x480, so presenter sharpness is limited by the original footage while overlays render at native 1080p."
+  ],
+  "verification_notes": [
+    "Container, duration, resolution, frame rate, H.264/AAC codecs, audio presence, and yuv420p pixel format passed validation.",
+    "Eight delivery frames were inspected across opening, information-card, comparison, risk, recommendation, and ending beats.",
+    "Audio spot checks found intelligible speech and no clipping.",
+    "Original source file was not modified."
+  ],
+  "render_grammar": "presenter",
+  "slideshow_risk_score": {
+    "average": 0.75,
+    "verdict": "strong — continuous source video remains the anchor while designed cards punctuate key claims"
+  },
+  "decision_log_ref": "decision_log.json",
+  "final_review_ref": "artifacts/final_review.json",
+  "metadata": {
+    "pipeline": "hybrid",
+    "render_runtime": "remotion",
+    "composition_mode": "templated-customized",
+    "style_playbook": "clean-professional",
+    "source_to_support_ratio": "70/30",
+    "music": "none",
+    "total_cost_usd": 0
+  }
+}

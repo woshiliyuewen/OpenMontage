@@ -1,0 +1,228 @@
+{
+  "version": "1.0",
+  "project_id": "cc0-ai-face-swap-reference-style",
+  "pipeline_type": "hybrid",
+  "stage": "idea",
+  "status": "completed",
+  "timestamp": "2026-08-12T07:52:52.149711+00:00",
+  "checkpoint_policy": "guided",
+  "human_approval_required": true,
+  "human_approved": true,
+  "artifacts": {
+    "brief": {
+      "version": "1.0",
+      "title": "AI\u6362\u8138\uff1a\u7528\u9014\u3001\u98ce\u9669\u4e0e\u8c28\u614e\u4f7f\u7528",
+      "hook": "AI\u6362\u8138\u4e0d\u53ea\u662f\u4e00\u4e2a\u6709\u8da3\u7684\u6548\u679c\u2014\u2014\u540c\u4e00\u79cd\u6280\u672f\uff0c\u4e3a\u4ec0\u4e48\u65e2\u80fd\u5e2e\u52a9\u6559\u5b66\uff0c\u4e5f\u53ef\u80fd\u7ed9\u4eba\u5e26\u6765\u73b0\u5b9e\u9ebb\u70e6\uff1f",
+      "key_points": [
+        "\u5c55\u793aAI\u6362\u8138\u7684\u57fa\u672c\u6982\u5ff5\u4e0e\u793a\u4f8b\u5bf9\u8c61",
+        "\u7528\u6b63\u53cd\u5bf9\u7167\u89e3\u91ca\u6280\u672f\u7684\u7528\u9014\u4e0e\u98ce\u9669",
+        "\u7528\u8bc1\u636e\u5361\u548c\u98ce\u9669\u94fe\u8def\u66ff\u4ee3\u88c5\u9970\u6027\u7d20\u6750",
+        "\u4ee5\u8c28\u614e\u4f7f\u7528\u4f5c\u4e3a\u660e\u786e\u7ed3\u8bba"
+      ],
+      "core_message": "\u6280\u672f\u672c\u8eab\u6709\u4e24\u9762\u6027\uff0c\u4f7f\u7528\u65b9\u5f0f\u51b3\u5b9a\u7ed3\u679c\uff0c\u56e0\u6b64AI\u6362\u8138\u5fc5\u987b\u8c28\u614e\u4f7f\u7528\u3002",
+      "cta": "\u8c28\u614e\u4f7f\u7528AI\u6362\u8138\uff0c\u5e76\u5728\u5206\u4eab\u524d\u8003\u8651\u53ef\u80fd\u9020\u6210\u7684\u540e\u679c\u3002",
+      "tone": "\u53ef\u4fe1\u3001\u514b\u5236\u3001\u5206\u6790\u578b\uff0c\u6848\u4f8b\u6bb5\u63d0\u9ad8\u89c6\u89c9\u5bc6\u5ea6",
+      "style": "clean-professional\u5b9a\u5236\uff1a\u70ad\u9ed1\u3001\u767d\u3001\u4eae\u9ec4\uff1b\u5e95\u90e8\u7c97\u4f53\u5b57\u5e55\u3001\u9ec4\u767d\u91cd\u70b9\u5b57\u3001\u8bc1\u636e\u5361\u3001\u786c\u5207",
+      "target_audience": "\u5bf9AI\u6362\u8138\u611f\u5174\u8da3\u7684\u666e\u901a\u89c2\u4f17\u4e0e\u5185\u5bb9\u521b\u4f5c\u8005",
+      "target_platform": "generic",
+      "target_duration_seconds": 45.1,
+      "reference_material": [
+        "C:/Users/24566/Documents/OpenMontage/projects/cc0-raw-video-cn-subtitle-test/renders/final.mp4",
+        "C:/Users/24566/Documents/OpenMontage/projects/reference-analysis-69c64123/video_analysis_brief.json"
+      ],
+      "selected_angle": "\u8bc1\u636e\u9a71\u52a8\u7684\u6280\u672f\u4e24\u9762\u6027",
+      "metadata": {
+        "anchor_medium": "talking_head",
+        "source_inventory": [
+          "45\u79d2\u82f1\u6587\u771f\u4eba\u53e3\u64ad",
+          "\u7b80\u4f53\u4e2d\u6587\u5b57\u5e55\u65f6\u95f4\u8f74"
+        ],
+        "support_layers": [
+          "editorial subtitles",
+          "yellow keyword callouts",
+          "evidence cards",
+          "comparison card",
+          "final advice card"
+        ],
+        "source_to_support_ratio": "70/30",
+        "deliverable_mix": [
+          "16:9 hero cut"
+        ],
+        "render_runtime": "remotion",
+        "renderer_family": "presenter",
+        "composition_mode": "templated-customized",
+        "music": "none \u2014 preserve speech clarity and reference restraint",
+        "approval_policy": "full_run_authorized_by_user_no_questions",
+        "estimated_cost_usd": 0
+      }
+    },
+    "decision_log": {
+      "version": "1.0",
+      "project_id": "cc0-ai-face-swap-reference-style",
+      "decisions": [
+        {
+          "decision_id": "d-001",
+          "stage": "idea",
+          "category": "pipeline_selection",
+          "subject": "Production pipeline",
+          "options_considered": [
+            {
+              "option_id": "hybrid",
+              "label": "Hybrid",
+              "score": 0.96,
+              "reason": "Preserves the supplied talking-head as anchor while adding designed evidence layers."
+            },
+            {
+              "option_id": "talking-head",
+              "label": "Talking Head",
+              "score": 0.75,
+              "reason": "Fits the source but its beta pipeline is less explicit about full-screen support scenes.",
+              "rejected_because": "The requested reference treatment relies on evidence cards and mixed support layers."
+            },
+            {
+              "option_id": "animation",
+              "label": "Animation",
+              "score": 0.28,
+              "reason": "Would displace the authentic source speaker.",
+              "rejected_because": "Source footage must remain primary."
+            }
+          ],
+          "selected": "hybrid",
+          "reason": "The requested treatment is source-led with purposeful support visuals.",
+          "user_visible": true,
+          "user_approved": true,
+          "confidence": 0.96
+        },
+        {
+          "decision_id": "d-002",
+          "stage": "idea",
+          "category": "render_runtime_selection",
+          "subject": "Composition runtime",
+          "options_considered": [
+            {
+              "option_id": "remotion",
+              "label": "Remotion",
+              "score": 0.94,
+              "reason": "Best fit for frame-accurate source video, subtitle timing, and React overlays in one pass."
+            },
+            {
+              "option_id": "hyperframes",
+              "label": "HyperFrames",
+              "score": 0.72,
+              "reason": "Strong for HTML/GSAP typography.",
+              "rejected_because": "More complex than needed for a 45-second source-led edit and less aligned with the existing caption timeline."
+            },
+            {
+              "option_id": "ffmpeg",
+              "label": "FFmpeg",
+              "score": 0.45,
+              "reason": "Reliable for encoding and simple overlays.",
+              "rejected_because": "Insufficiently expressive for the requested animated editorial hierarchy."
+            }
+          ],
+          "selected": "remotion",
+          "reason": "It preserves source synchronization while supporting the reference-style typography and evidence cards.",
+          "user_visible": true,
+          "user_approved": true,
+          "confidence": 0.94
+        },
+        {
+          "decision_id": "d-003",
+          "stage": "idea",
+          "category": "composition_mode",
+          "subject": "Composition authoring mode",
+          "options_considered": [
+            {
+              "option_id": "templated-custom",
+              "label": "Customized template",
+              "score": 0.92,
+              "reason": "Extends the stable presenter composition with a new editorial overlay system."
+            },
+            {
+              "option_id": "atelier",
+              "label": "Atelier",
+              "score": 0.68,
+              "reason": "Would maximize uniqueness.",
+              "rejected_because": "The brief asks for an existing reference grammar and the low-resolution source benefits from restrained customization."
+            }
+          ],
+          "selected": "templated-custom",
+          "reason": "A controlled extension gives the requested look without unnecessary production risk.",
+          "user_visible": true,
+          "user_approved": true,
+          "confidence": 0.9
+        },
+        {
+          "decision_id": "d-004",
+          "stage": "idea",
+          "category": "music_source",
+          "subject": "Background music",
+          "options_considered": [
+            {
+              "option_id": "none",
+              "label": "No music",
+              "score": 0.9,
+              "reason": "Keeps the non-native English speech maximally intelligible and matches the restrained reference."
+            },
+            {
+              "option_id": "pixabay",
+              "label": "Pixabay royalty-free music",
+              "score": 0.55,
+              "reason": "Available at no API charge.",
+              "rejected_because": "Adds little value to this short cautionary explainer."
+            }
+          ],
+          "selected": "none",
+          "reason": "Speech clarity is the audio priority.",
+          "user_visible": true,
+          "user_approved": true,
+          "confidence": 0.88
+        },
+        {
+          "decision_id": "d-005",
+          "stage": "idea",
+          "category": "approval_policy",
+          "subject": "Human approval gates",
+          "options_considered": [
+            {
+              "option_id": "full-run",
+              "label": "Full-run preauthorization",
+              "score": 1.0,
+              "reason": "The user explicitly requested that no questions be asked throughout."
+            },
+            {
+              "option_id": "guided",
+              "label": "Per-stage approval",
+              "score": 0.1,
+              "reason": "Normal manifest policy.",
+              "rejected_because": "Contradicts the user's explicit no-questions instruction."
+            }
+          ],
+          "selected": "full-run",
+          "reason": "The user's instruction is explicit full-run authorization within the requested scope.",
+          "user_visible": true,
+          "user_approved": true,
+          "confidence": 1.0
+        }
+      ]
+    }
+  },
+  "style_playbook": "clean-professional",
+  "review": {
+    "decision": "PASS",
+    "round": 1,
+    "findings": [],
+    "summary": {
+      "critical": 0,
+      "suggestions": 0,
+      "success_criteria": "met"
+    }
+  },
+  "cost_snapshot": {
+    "spent_usd": 0,
+    "estimated_total_usd": 0
+  },
+  "metadata": {
+    "preauthorized": true
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "version": "1.0",
+  "project_id": "cc0-ai-face-swap-reference-style",
+  "decisions": [
+    {
+      "decision_id": "d-001",
+      "stage": "idea",
+      "category": "pipeline_selection",
+      "subject": "Production pipeline",
+      "options_considered": [
+        {
+          "option_id": "hybrid",
+          "label": "Hybrid",
+          "score": 0.96,
+          "reason": "Preserves the supplied talking-head as anchor while adding designed evidence layers."
+        },
+        {
+          "option_id": "talking-head",
+          "label": "Talking Head",
+          "score": 0.75,
+          "reason": "Fits the source but its beta pipeline is less explicit about full-screen support scenes.",
+          "rejected_because": "The requested reference treatment relies on evidence cards and mixed support layers."
+        },
+        {
+          "option_id": "animation",
+          "label": "Animation",
+          "score": 0.28,
+          "reason": "Would displace the authentic source speaker.",
+          "rejected_because": "Source footage must remain primary."
+        }
+      ],
+      "selected": "hybrid",
+      "reason": "The requested treatment is source-led with purposeful support visuals.",
+      "user_visible": true,
+      "user_approved": true,
+      "confidence": 0.96
+    },
+    {
+      "decision_id": "d-002",
+      "stage": "idea",
+      "category": "render_runtime_selection",
+      "subject": "Composition runtime",
+      "options_considered": [
+        {
+          "option_id": "remotion",
+          "label": "Remotion",
+          "score": 0.94,
+          "reason": "Best fit for frame-accurate source video, subtitle timing, and React overlays in one pass."
+        },
+        {
+          "option_id": "hyperframes",
+          "label": "HyperFrames",
+          "score": 0.72,
+          "reason": "Strong for HTML/GSAP typography.",
+          "rejected_because": "More complex than needed for a 45-second source-led edit and less aligned with the existing caption timeline."
+        },
+        {
+          "option_id": "ffmpeg",
+          "label": "FFmpeg",
+          "score": 0.45,
+          "reason": "Reliable for encoding and simple overlays.",
+          "rejected_because": "Insufficiently expressive for the requested animated editorial hierarchy."
+        }
+      ],
+      "selected": "remotion",
+      "reason": "It preserves source synchronization while supporting the reference-style typography and evidence cards.",
+      "user_visible": true,
+      "user_approved": true,
+      "confidence": 0.94
+    },
+    {
+      "decision_id": "d-003",
+      "stage": "idea",
+      "category": "composition_mode",
+      "subject": "Composition authoring mode",
+      "options_considered": [
+        {
+          "option_id": "templated-custom",
+          "label": "Customized template",
+          "score": 0.92,
+          "reason": "Extends the stable presenter composition with a new editorial overlay system."
+        },
+        {
+          "option_id": "atelier",
+          "label": "Atelier",
+          "score": 0.68,
+          "reason": "Would maximize uniqueness.",
+          "rejected_because": "The brief asks for an existing reference grammar and the low-resolution source benefits from restrained customization."
+        }
+      ],
+      "selected": "templated-custom",
+      "reason": "A controlled extension gives the requested look without unnecessary production risk.",
+      "user_visible": true,
+      "user_approved": true,
+      "confidence": 0.9
+    },
+    {
+      "decision_id": "d-004",
+      "stage": "idea",
+      "category": "music_source",
+      "subject": "Background music",
+      "options_considered": [
+        {
+          "option_id": "none",
+          "label": "No music",
+          "score": 0.9,
+          "reason": "Keeps the non-native English speech maximally intelligible and matches the restrained reference."
+        },
+        {
+          "option_id": "pixabay",
+          "label": "Pixabay royalty-free music",
+          "score": 0.55,
+          "reason": "Available at no API charge.",
+          "rejected_because": "Adds little value to this short cautionary explainer."
+        }
+      ],
+      "selected": "none",
+      "reason": "Speech clarity is the audio priority.",
+      "user_visible": true,
+      "user_approved": true,
+      "confidence": 0.88
+    },
+    {
+      "decision_id": "d-005",
+      "stage": "idea",
+      "category": "approval_policy",
+      "subject": "Human approval gates",
+      "options_considered": [
+        {
+          "option_id": "full-run",
+          "label": "Full-run preauthorization",
+          "score": 1.0,
+          "reason": "The user explicitly requested that no questions be asked throughout."
+        },
+        {
+          "option_id": "guided",
+          "label": "Per-stage approval",
+          "score": 0.1,
+          "reason": "Normal manifest policy.",
+          "rejected_because": "Contradicts the user's explicit no-questions instruction."
+        }
+      ],
+      "selected": "full-run",
+      "reason": "The user's instruction is explicit full-run authorization within the requested scope.",
+      "user_visible": true,
+      "user_approved": true,
+      "confidence": 1.0
+    }
+  ]
+}

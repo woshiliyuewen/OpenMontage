@@ -1,0 +1,12 @@
+{
+  "version": "3.0",
+  "outputs": [{"path":"export/ai-face-swap-editorial-v3-1080p.mp4","format":"mp4","codec":"h264","audio_codec":"aac","resolution":"1920x1080","fps":30,"duration_seconds":45.376,"file_size_bytes":13823125,"platform_target":"generic_hd"}],
+  "verification_notes": [
+    "Full black information pages were replaced with source-visible charcoal glass overlays.",
+    "Comparison and risk-chain typography was enlarged and supplemented with authorization, provenance and misidentification logic.",
+    "The conclusion now remains through the end and contains three actionable rules.",
+    "A 60fps Remotion master was sampled to stable complete frames for true 30fps delivery motion.",
+    "Four quiet locally synthesized transition cues were added; dialogue remains unclipped and intelligible."
+  ],
+  "metadata": {"pipeline":"hybrid","render_runtime":"remotion","finishing_runtime":"ffmpeg","skills":["remotion","remotion-best-practices","ffmpeg","video-understand"],"external_api_used":false,"total_cost_usd":0}
+}

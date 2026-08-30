@@ -1,0 +1,35 @@
+{
+  "version": "1.0",
+  "entries": [
+    {
+      "platform": "local-master",
+      "status": "exported",
+      "visibility": "private",
+      "export_path": "export/ai-face-swap-editorial-master-1080p.mp4",
+      "timestamp": "2026-08-12T07:58:05.0337585Z",
+      "metadata_used": {
+        "title": "AI换脸：用途、风险与使用边界",
+        "description": "以原始人物讲解为主线，配合中文字幕、关键词强调、证据信息卡、用途/风险对比及结论卡。",
+        "hashtags": [
+          "AI换脸",
+          "人工智能",
+          "科技伦理"
+        ],
+        "chapters": [
+          {"start_seconds": 0, "title": "换脸示例"},
+          {"start_seconds": 9.45, "title": "正向用途与滥用风险"},
+          {"start_seconds": 14.65, "title": "在线课程场景"},
+          {"start_seconds": 28.2, "title": "滥用风险链路"},
+          {"start_seconds": 37, "title": "最终建议"}
+        ]
+      }
+    }
+  ],
+  "metadata": {
+    "master_output": "export/ai-face-swap-editorial-master-1080p.mp4",
+    "derivative_outputs": [],
+    "source_mix_notes": "Source-led presenter video with timed editorial motion-graphic support; no generated imagery, narration, or music.",
+    "platform_copy_map": {},
+    "estimated_cost_usd": 0
+  }
+}

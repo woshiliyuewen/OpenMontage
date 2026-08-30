@@ -1,0 +1,23 @@
+{
+  "version": "1.0",
+  "title": "AI Face Swap: Uses, Risks, and Careful Use — Editorial Restyle",
+  "total_duration_seconds": 45.1,
+  "voice_performance": {
+    "performance_intent": "Preserve the original speaker and original English audio without TTS replacement.",
+    "pacing_profile": "conversational",
+    "energy_curve": "Neutral introduction, balanced comparison, cautionary risk section, firm conclusion.",
+    "pause_policy": "Use the existing silence-cut master unchanged.",
+    "provider_notes": {"source_audio": "Original embedded audio", "subtitle_language": "zh-CN"}
+  },
+  "sections": [
+    {"id":"s01","label":"Introduction","text":"Hello, this is an example of face swap using AI.","start_seconds":0.0,"end_seconds":5.0,"enhancement_cues":[{"type":"overlay","description":"黄白关键词：AI换脸","timestamp_seconds":0.4}],"source_ref":"source video"},
+    {"id":"s02","label":"Example target","text":"Here I'm going to swap my face with a well-known celebrity, Tom Cruise.","start_seconds":5.0,"end_seconds":9.4,"enhancement_cues":[{"type":"stat_card","description":"证据卡：本人 → 汤姆·克鲁斯","timestamp_seconds":5.2}],"source_ref":"source video"},
+    {"id":"s03","label":"Two-sided technology","text":"This technology has its own advantages and disadvantages.","start_seconds":9.4,"end_seconds":14.2,"enhancement_cues":[{"type":"animation","description":"全屏优点/风险对照卡","timestamp_seconds":9.6}],"source_ref":"source video"},
+    {"id":"s04","label":"Ethical use","text":"Ethically speaking, this technology can be used in institutions where they have online classes.","start_seconds":14.2,"end_seconds":21.4,"enhancement_cues":[{"type":"stat_card","description":"正向用途证据卡：在线课程/教育机构","timestamp_seconds":15.0}],"source_ref":"source video"},
+    {"id":"s05","label":"Misuse risk","text":"And unethically, it has many disadvantages, where a video can be sent to your friend.","start_seconds":21.4,"end_seconds":28.2,"enhancement_cues":[{"type":"overlay","description":"黄色风险关键词","timestamp_seconds":21.7}],"source_ref":"source video"},
+    {"id":"s06","label":"Consequences","text":"Or can be put into an organization, which can cause many unwanted scenes for you.","start_seconds":28.2,"end_seconds":36.8,"enhancement_cues":[{"type":"stat_card","description":"风险链路证据卡","timestamp_seconds":28.4}],"source_ref":"source video"},
+    {"id":"s07","label":"Caution","text":"So it is always advised to use this technology with great care.","start_seconds":36.8,"end_seconds":42.2,"enhancement_cues":[{"type":"overlay","description":"全屏结论：务必谨慎使用","timestamp_seconds":37.2}],"source_ref":"source video"},
+    {"id":"s08","label":"Closing","text":"Thank you. Hope you like this example.","start_seconds":42.2,"end_seconds":45.1,"enhancement_cues":[{"type":"overlay","description":"简洁收尾标签","timestamp_seconds":42.4}],"source_ref":"source video"}
+  ],
+  "metadata": {"anchor_sections":["s01","s02","s04","s05","s08"],"support_sections":["s03","s06","s07"],"narration_sections":[],"required_support_assets":["subtitle kit","keyword kit","evidence card kit","comparison card kit"]}
+}

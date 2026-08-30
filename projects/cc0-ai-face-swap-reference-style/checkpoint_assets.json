@@ -1,0 +1,101 @@
+{
+  "version": "1.0",
+  "project_id": "cc0-ai-face-swap-reference-style",
+  "pipeline_type": "hybrid",
+  "stage": "assets",
+  "status": "completed",
+  "timestamp": "2026-08-12T07:52:52.244203+00:00",
+  "checkpoint_policy": "guided",
+  "human_approval_required": true,
+  "human_approved": true,
+  "artifacts": {
+    "asset_manifest": {
+      "version": "1.0",
+      "assets": [
+        {
+          "id": "anchor-video",
+          "type": "video",
+          "path": "assets/video/footage-cut.mp4",
+          "source_tool": "source_media_review",
+          "scene_id": "all-scenes",
+          "duration_seconds": 45.066,
+          "resolution": "848x480",
+          "format": "mp4",
+          "quality_score": 0.82,
+          "subtype": "source-footage",
+          "generation_summary": "Clean silence-cut master reused from the supplied project's source assets.",
+          "provider": "provided",
+          "license": "CC0 1.0"
+        },
+        {
+          "id": "subtitle-data",
+          "type": "subtitle",
+          "path": "assets/subtitles.json",
+          "source_tool": "subtitle_gen",
+          "scene_id": "all-scenes",
+          "duration_seconds": 44.467,
+          "format": "json",
+          "quality_score": 0.94,
+          "subtype": "simplified-chinese",
+          "generation_summary": "Existing approved Chinese subtitle timeline reused without retranslation.",
+          "provider": "local"
+        },
+        {
+          "id": "editorial-props",
+          "type": "animation",
+          "path": "assets/composition-props.json",
+          "source_tool": "remotion",
+          "scene_id": "all-scenes",
+          "duration_seconds": 45.1,
+          "resolution": "1920x1080",
+          "format": "json",
+          "quality_score": 0.9,
+          "subtype": "editorial-overlay-system",
+          "generation_summary": "Custom charcoal-white-yellow keyword, evidence, comparison, and final-card system inspired by the reference's information hierarchy.",
+          "provider": "local-remotion"
+        }
+      ],
+      "total_cost_usd": 0,
+      "metadata": {
+        "shared_support_assets": [
+          "editorial subtitle system",
+          "keyword callout system",
+          "evidence card system"
+        ],
+        "source_vs_generated_map": "Source speaker/audio remains anchor; all support graphics are deterministic local composition.",
+        "music": "none",
+        "approval_policy": "full_run_authorized"
+      }
+    }
+  },
+  "style_playbook": "clean-professional",
+  "review": {
+    "decision": "PASS",
+    "round": 1,
+    "findings": [],
+    "summary": {
+      "critical": 0,
+      "suggestions": 0,
+      "success_criteria": "met"
+    }
+  },
+  "cost_snapshot": {
+    "spent_usd": 0,
+    "estimated_total_usd": 0
+  },
+  "metadata": {
+    "preauthorized": true,
+    "partial_progress": {
+      "completed_scene_ids": [
+        "sc01",
+        "sc02",
+        "sc03",
+        "sc04",
+        "sc05",
+        "sc06",
+        "sc07",
+        "sc08"
+      ]
+    }
+  }
+}

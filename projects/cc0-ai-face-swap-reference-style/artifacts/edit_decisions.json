@@ -1,0 +1,14 @@
+{
+  "version": "1.0",
+  "cuts": [
+    {"id":"anchor-cut","source":"anchor-video","in_seconds":0,"out_seconds":45.066,"speed":1,"layer":"primary","transition_in":"cut","transition_out":"cut","transition_duration":0,"reason":"Preserve the already tightened source edit and original audio."}
+  ],
+  "overlays": [],
+  "audio": {"narration":{"segments":[{"asset_id":"anchor-video","start_seconds":0,"end_seconds":45.066}]},"sfx":[{"asset_id":"editorial-cue","start_seconds":9.45},{"asset_id":"editorial-cue","start_seconds":21.55},{"asset_id":"editorial-cue","start_seconds":28.2},{"asset_id":"editorial-cue","start_seconds":37.0}]},
+  "subtitles": {"enabled":true,"style":"short-phrase-keyword","source":"subtitle-data","font":"Microsoft YaHei","font_size":50,"color":"#FFFFFF","outline_color":"#000000","background":"transparent","position":"bottom-center","max_words_per_line":10},
+  "renderer_family": "presenter",
+  "render_runtime": "remotion",
+  "composition_mode": "templated-customized",
+  "slideshow_risk_score": {"average":0.75,"verdict":"strong"},
+  "metadata": {"proposal_render_runtime":"remotion","anchor_cut_notes":"Coherent source dialogue and silence-cut timing retained.","layer_order":["anchor video","face-safe auto-positioned editorial content","Chinese subtitles","local transition cues"],"overlay_windows":"Defined in assets/composition-props-auto.json","placement_analysis":"artifacts/overlay_placements.json","placement_policy":"preferred side -> opposite side -> safest center fallback; one stable decision per overlay interval","full_screen_shading":"none","readability_protection":"text shadows and local card surfaces only","music":"none","sound_design":"local subtle cues","source_to_support_ratio":"70/30","render_strategy":"60fps Remotion master with complete-frame 30fps delivery","estimated_cost_usd":0}
+}

@@ -1,0 +1,74 @@
+{"ts": "2026-08-12T07:53:14.850398+00:00", "tool": "video_compose", "event": "start", "output_path": "C:\\Users\\24566\\Documents\\OpenMontage\\projects\\cc0-ai-face-swap-reference-style\\renders\\final.mp4"}
+{"ts": "2026-08-12T07:53:26.536320+00:00", "tool": "video_compose", "event": "finish", "output_path": "C:\\Users\\24566\\Documents\\OpenMontage\\projects\\cc0-ai-face-swap-reference-style\\renders\\final.mp4", "success": false, "cost_usd": 0.0, "duration_s": 11.68}
+{"ts": "2026-08-12T07:53:58.536131+00:00", "tool": "video_compose", "event": "start", "output_path": "C:\\Users\\24566\\Documents\\OpenMontage\\projects\\cc0-ai-face-swap-reference-style\\renders\\final.mp4"}
+{"ts": "2026-08-12T07:54:56.457514+00:00", "tool": "video_compose", "event": "finish", "output_path": "C:\\Users\\24566\\Documents\\OpenMontage\\projects\\cc0-ai-face-swap-reference-style\\renders\\final.mp4", "success": true, "cost_usd": 0.0, "duration_s": 57.92}
+{"ts": "2026-08-12T07:55:06.729126+00:00", "tool": "visual_qa", "event": "start"}
+{"ts": "2026-08-12T07:55:06.810023+00:00", "tool": "visual_qa", "event": "finish", "success": true, "cost_usd": 0.0, "duration_s": 0.08}
+{"ts": "2026-08-12T07:55:06.811657+00:00", "tool": "visual_qa", "event": "start"}
+{"ts": "2026-08-12T07:55:08.084892+00:00", "tool": "visual_qa", "event": "finish", "success": true, "cost_usd": 0.0, "duration_s": 1.27}
+{"ts": "2026-08-12T07:55:08.086396+00:00", "tool": "visual_qa", "event": "start"}
+{"ts": "2026-08-12T07:55:08.567204+00:00", "tool": "visual_qa", "event": "finish", "success": true, "cost_usd": 0.0, "duration_s": 0.48}
+{"ts": "2026-08-12T07:55:33.967974+00:00", "tool": "video_compose", "event": "start", "output_path": "C:\\Users\\24566\\Documents\\OpenMontage\\projects\\cc0-ai-face-swap-reference-style\\renders\\final-delivery.mp4"}
+{"ts": "2026-08-12T07:55:48.017953+00:00", "tool": "video_compose", "event": "finish", "output_path": "C:\\Users\\24566\\Documents\\OpenMontage\\projects\\cc0-ai-face-swap-reference-style\\renders\\final-delivery.mp4", "success": true, "cost_usd": 0.0, "duration_s": 14.05}
+{"ts": "2026-08-12T07:57:20.460668+00:00", "tool": "visual_qa", "event": "start"}
+{"ts": "2026-08-12T07:57:24.222485+00:00", "tool": "visual_qa", "event": "finish", "success": true, "cost_usd": 0.0, "duration_s": 3.76}
+{"ts": "2026-08-12T07:57:24.224813+00:00", "tool": "visual_qa", "event": "start"}
+{"ts": "2026-08-12T07:57:24.367780+00:00", "tool": "visual_qa", "event": "finish", "success": true, "cost_usd": 0.0, "duration_s": 0.14}
+{"ts": "2026-08-12T07:57:24.376139+00:00", "tool": "visual_qa", "event": "start"}
+{"ts": "2026-08-12T07:57:26.006186+00:00", "tool": "visual_qa", "event": "finish", "success": true, "cost_usd": 0.0, "duration_s": 1.63}
+{"ts": "2026-08-12T08:11:45.576505+00:00", "tool": "video_compose", "event": "start", "output_path": "C:\\Users\\24566\\Documents\\OpenMontage\\projects\\cc0-ai-face-swap-reference-style\\renders\\final-v2-remotion.mp4"}
+{"ts": "2026-08-12T08:12:46.886250+00:00", "tool": "video_compose", "event": "finish", "output_path": "C:\\Users\\24566\\Documents\\OpenMontage\\projects\\cc0-ai-face-swap-reference-style\\renders\\final-v2-remotion.mp4", "success": true, "cost_usd": 0.0, "duration_s": 61.31}
+{"ts": "2026-08-12T08:12:55.091909+00:00", "tool": "video_compose", "event": "start", "output_path": "C:\\Users\\24566\\Documents\\OpenMontage\\projects\\cc0-ai-face-swap-reference-style\\renders\\final-v2.mp4"}
+{"ts": "2026-08-12T08:13:08.075119+00:00", "tool": "video_compose", "event": "finish", "output_path": "C:\\Users\\24566\\Documents\\OpenMontage\\projects\\cc0-ai-face-swap-reference-style\\renders\\final-v2.mp4", "success": true, "cost_usd": 0.0, "duration_s": 12.98}
+{"ts": "2026-08-12T08:13:17.262987+00:00", "tool": "visual_qa", "event": "start"}
+{"ts": "2026-08-12T08:13:19.022047+00:00", "tool": "visual_qa", "event": "finish", "success": true, "cost_usd": 0.0, "duration_s": 1.76}
+{"ts": "2026-08-12T08:13:19.023481+00:00", "tool": "visual_qa", "event": "start"}
+{"ts": "2026-08-12T08:13:19.089509+00:00", "tool": "visual_qa", "event": "finish", "success": true, "cost_usd": 0.0, "duration_s": 0.07}
+{"ts": "2026-08-12T08:13:19.090896+00:00", "tool": "visual_qa", "event": "start"}
+{"ts": "2026-08-12T08:13:19.567839+00:00", "tool": "visual_qa", "event": "finish", "success": true, "cost_usd": 0.0, "duration_s": 0.48}
+{"ts": "2026-08-12T08:14:09.691030+00:00", "tool": "visual_qa", "event": "start"}
+{"ts": "2026-08-12T08:14:10.710938+00:00", "tool": "visual_qa", "event": "finish", "success": true, "cost_usd": 0.0, "duration_s": 1.02}
+{"ts": "2026-08-12T08:14:44.178891+00:00", "tool": "video_compose", "event": "start", "output_path": "C:\\Users\\24566\\Documents\\OpenMontage\\projects\\cc0-ai-face-swap-reference-style\\renders\\final-v2-remotion-fixed.mp4"}
+{"ts": "2026-08-12T08:15:40.862729+00:00", "tool": "video_compose", "event": "finish", "output_path": "C:\\Users\\24566\\Documents\\OpenMontage\\projects\\cc0-ai-face-swap-reference-style\\renders\\final-v2-remotion-fixed.mp4", "success": true, "cost_usd": 0.0, "duration_s": 56.68}
+{"ts": "2026-08-12T08:15:40.864000+00:00", "tool": "video_compose", "event": "start", "output_path": "C:\\Users\\24566\\Documents\\OpenMontage\\projects\\cc0-ai-face-swap-reference-style\\renders\\final-v2.mp4"}
+{"ts": "2026-08-12T08:15:53.998669+00:00", "tool": "video_compose", "event": "finish", "output_path": "C:\\Users\\24566\\Documents\\OpenMontage\\projects\\cc0-ai-face-swap-reference-style\\renders\\final-v2.mp4", "success": true, "cost_usd": 0.0, "duration_s": 13.13}
+{"ts": "2026-08-12T08:16:03.887917+00:00", "tool": "visual_qa", "event": "start"}
+{"ts": "2026-08-12T08:16:06.571796+00:00", "tool": "visual_qa", "event": "finish", "success": true, "cost_usd": 0.0, "duration_s": 2.68}
+{"ts": "2026-08-12T08:16:06.573801+00:00", "tool": "visual_qa", "event": "start"}
+{"ts": "2026-08-12T08:16:06.647378+00:00", "tool": "visual_qa", "event": "finish", "success": true, "cost_usd": 0.0, "duration_s": 0.07}
+{"ts": "2026-08-12T08:16:06.649267+00:00", "tool": "visual_qa", "event": "start"}
+{"ts": "2026-08-12T08:16:07.195747+00:00", "tool": "visual_qa", "event": "finish", "success": true, "cost_usd": 0.0, "duration_s": 0.55}
+{"ts": "2026-08-12T08:16:58.428458+00:00", "tool": "video_compose", "event": "start", "output_path": "C:\\Users\\24566\\Documents\\OpenMontage\\projects\\cc0-ai-face-swap-reference-style\\renders\\final-v2-remotion-c1.mp4"}
+{"ts": "2026-08-12T08:19:21.419162+00:00", "tool": "video_compose", "event": "finish", "output_path": "C:\\Users\\24566\\Documents\\OpenMontage\\projects\\cc0-ai-face-swap-reference-style\\renders\\final-v2-remotion-c1.mp4", "success": true, "cost_usd": 0.0, "duration_s": 142.99}
+{"ts": "2026-08-12T08:19:21.420463+00:00", "tool": "video_compose", "event": "start", "output_path": "C:\\Users\\24566\\Documents\\OpenMontage\\projects\\cc0-ai-face-swap-reference-style\\renders\\final-v2.mp4"}
+{"ts": "2026-08-12T08:19:33.435725+00:00", "tool": "video_compose", "event": "finish", "output_path": "C:\\Users\\24566\\Documents\\OpenMontage\\projects\\cc0-ai-face-swap-reference-style\\renders\\final-v2.mp4", "success": true, "cost_usd": 0.0, "duration_s": 12.01}
+{"ts": "2026-08-12T08:20:25.176403+00:00", "tool": "video_compose", "event": "start", "output_path": "C:\\Users\\24566\\Documents\\OpenMontage\\projects\\cc0-ai-face-swap-reference-style\\renders\\final-v2-remotion-stable.mp4"}
+{"ts": "2026-08-12T08:22:48.653351+00:00", "tool": "video_compose", "event": "finish", "output_path": "C:\\Users\\24566\\Documents\\OpenMontage\\projects\\cc0-ai-face-swap-reference-style\\renders\\final-v2-remotion-stable.mp4", "success": true, "cost_usd": 0.0, "duration_s": 143.48}
+{"ts": "2026-08-12T08:22:48.654932+00:00", "tool": "video_compose", "event": "start", "output_path": "C:\\Users\\24566\\Documents\\OpenMontage\\projects\\cc0-ai-face-swap-reference-style\\renders\\final-v2.mp4"}
+{"ts": "2026-08-12T08:23:00.235312+00:00", "tool": "video_compose", "event": "finish", "output_path": "C:\\Users\\24566\\Documents\\OpenMontage\\projects\\cc0-ai-face-swap-reference-style\\renders\\final-v2.mp4", "success": true, "cost_usd": 0.0, "duration_s": 11.58}
+{"ts": "2026-08-12T08:24:05.461268+00:00", "tool": "video_compose", "event": "start", "output_path": "C:\\Users\\24566\\Documents\\OpenMontage\\projects\\cc0-ai-face-swap-reference-style\\renders\\final-v2-remotion-zfix.mp4"}
+{"ts": "2026-08-12T08:26:29.662346+00:00", "tool": "video_compose", "event": "finish", "output_path": "C:\\Users\\24566\\Documents\\OpenMontage\\projects\\cc0-ai-face-swap-reference-style\\renders\\final-v2-remotion-zfix.mp4", "success": true, "cost_usd": 0.0, "duration_s": 144.2}
+{"ts": "2026-08-12T08:26:29.663799+00:00", "tool": "video_compose", "event": "start", "output_path": "C:\\Users\\24566\\Documents\\OpenMontage\\projects\\cc0-ai-face-swap-reference-style\\renders\\final-v2.mp4"}
+{"ts": "2026-08-12T08:26:41.696586+00:00", "tool": "video_compose", "event": "finish", "output_path": "C:\\Users\\24566\\Documents\\OpenMontage\\projects\\cc0-ai-face-swap-reference-style\\renders\\final-v2.mp4", "success": true, "cost_usd": 0.0, "duration_s": 12.03}
+{"ts": "2026-08-12T08:34:40.587416+00:00", "tool": "video_compose", "event": "start", "output_path": "C:\\Users\\24566\\Documents\\OpenMontage\\projects\\cc0-ai-face-swap-reference-style\\renders\\final-v2-remotion-swangle.mp4"}
+{"ts": "2026-08-12T08:37:36.685065+00:00", "tool": "video_compose", "event": "finish", "output_path": "C:\\Users\\24566\\Documents\\OpenMontage\\projects\\cc0-ai-face-swap-reference-style\\renders\\final-v2-remotion-swangle.mp4", "success": true, "cost_usd": 0.0, "duration_s": 176.1}
+{"ts": "2026-08-12T08:37:36.686744+00:00", "tool": "video_compose", "event": "start", "output_path": "C:\\Users\\24566\\Documents\\OpenMontage\\projects\\cc0-ai-face-swap-reference-style\\renders\\final-v2.mp4"}
+{"ts": "2026-08-12T08:37:48.573967+00:00", "tool": "video_compose", "event": "finish", "output_path": "C:\\Users\\24566\\Documents\\OpenMontage\\projects\\cc0-ai-face-swap-reference-style\\renders\\final-v2.mp4", "success": true, "cost_usd": 0.0, "duration_s": 11.89}
+{"ts": "2026-08-12T10:30:44.537892+00:00", "tool": "video_compose", "event": "start", "output_path": "C:\\Users\\24566\\Documents\\OpenMontage\\projects\\cc0-ai-face-swap-reference-style\\renders\\final-v3-remotion-60fps.mp4"}
+{"ts": "2026-08-12T10:31:01.548059+00:00", "tool": "video_compose", "event": "finish", "output_path": "C:\\Users\\24566\\Documents\\OpenMontage\\projects\\cc0-ai-face-swap-reference-style\\renders\\final-v3-remotion-60fps.mp4", "success": false, "cost_usd": 0.0, "duration_s": 17.01}
+{"ts": "2026-08-12T10:34:28.124203+00:00", "tool": "video_compose", "event": "start", "output_path": "C:\\Users\\24566\\Documents\\OpenMontage\\projects\\cc0-ai-face-swap-reference-style\\renders\\final-v3-remotion-60fps.mp4"}
+{"ts": "2026-08-12T10:34:33.012277+00:00", "tool": "video_compose", "event": "finish", "output_path": "C:\\Users\\24566\\Documents\\OpenMontage\\projects\\cc0-ai-face-swap-reference-style\\renders\\final-v3-remotion-60fps.mp4", "success": false, "cost_usd": 0.0, "duration_s": 4.89}
+{"ts": "2026-08-12T10:34:49.230772+00:00", "tool": "video_compose", "event": "start", "output_path": "C:\\Users\\24566\\Documents\\OpenMontage\\projects\\cc0-ai-face-swap-reference-style\\renders\\final-v3-remotion-60fps.mp4"}
+{"ts": "2026-08-12T10:41:38.312601+00:00", "tool": "video_compose", "event": "finish", "output_path": "C:\\Users\\24566\\Documents\\OpenMontage\\projects\\cc0-ai-face-swap-reference-style\\renders\\final-v3-remotion-60fps.mp4", "success": true, "cost_usd": 0.0, "duration_s": 409.08}
+{"ts": "2026-08-12T10:47:06.374693+00:00", "tool": "video_compose", "event": "start", "output_path": "C:\\Users\\24566\\Documents\\OpenMontage\\projects\\cc0-ai-face-swap-reference-style\\renders\\final-v4-remotion-60fps.mp4"}
+{"ts": "2026-08-12T10:53:05.914729+00:00", "tool": "video_compose", "event": "finish", "output_path": "C:\\Users\\24566\\Documents\\OpenMontage\\projects\\cc0-ai-face-swap-reference-style\\renders\\final-v4-remotion-60fps.mp4", "success": true, "cost_usd": 0.0, "duration_s": 359.54}
+{"ts": "2026-08-12T10:57:35.846555+00:00", "tool": "video_compose", "event": "start", "output_path": "C:\\Users\\24566\\Documents\\OpenMontage\\projects\\cc0-ai-face-swap-reference-style\\renders\\final-v5-remotion-60fps.mp4"}
+{"ts": "2026-08-12T11:03:34.009617+00:00", "tool": "video_compose", "event": "finish", "output_path": "C:\\Users\\24566\\Documents\\OpenMontage\\projects\\cc0-ai-face-swap-reference-style\\renders\\final-v5-remotion-60fps.mp4", "success": true, "cost_usd": 0.0, "duration_s": 358.16}
+{"ts": "2026-08-12T11:09:19.495968+00:00", "tool": "face_tracker", "event": "start", "output_path": "C:\\Users\\24566\\Documents\\OpenMontage\\projects\\cc0-ai-face-swap-reference-style\\artifacts\\face_tracking.json"}
+{"ts": "2026-08-12T11:09:22.528629+00:00", "tool": "face_tracker", "event": "finish", "output_path": "C:\\Users\\24566\\Documents\\OpenMontage\\projects\\cc0-ai-face-swap-reference-style\\artifacts\\face_tracking.json", "success": true, "cost_usd": 0.0, "duration_s": 3.03}
+{"ts": "2026-08-12T11:10:19.060646+00:00", "tool": "overlay_placement", "event": "start", "output_path": "C:\\Users\\24566\\Documents\\OpenMontage\\projects\\cc0-ai-face-swap-reference-style\\artifacts\\overlay_placements.json"}
+{"ts": "2026-08-12T11:10:19.063426+00:00", "tool": "overlay_placement", "event": "finish", "output_path": "C:\\Users\\24566\\Documents\\OpenMontage\\projects\\cc0-ai-face-swap-reference-style\\artifacts\\overlay_placements.json", "success": true, "cost_usd": 0.0, "duration_s": 0.0}
+{"ts": "2026-08-12T11:10:46.424087+00:00", "tool": "overlay_placement", "event": "start", "output_path": "C:\\Users\\24566\\Documents\\OpenMontage\\projects\\cc0-ai-face-swap-reference-style\\artifacts\\overlay_placements.json"}
+{"ts": "2026-08-12T11:10:46.427290+00:00", "tool": "overlay_placement", "event": "finish", "output_path": "C:\\Users\\24566\\Documents\\OpenMontage\\projects\\cc0-ai-face-swap-reference-style\\artifacts\\overlay_placements.json", "success": true, "cost_usd": 0.0, "duration_s": 0.0}
+{"ts": "2026-08-12T11:10:56.717684+00:00", "tool": "video_compose", "event": "start", "output_path": "C:\\Users\\24566\\Documents\\OpenMontage\\projects\\cc0-ai-face-swap-reference-style\\renders\\final-v6-auto-placement-60fps.mp4"}
+{"ts": "2026-08-12T11:16:58.722596+00:00", "tool": "video_compose", "event": "finish", "output_path": "C:\\Users\\24566\\Documents\\OpenMontage\\projects\\cc0-ai-face-swap-reference-style\\renders\\final-v6-auto-placement-60fps.mp4", "success": true, "cost_usd": 0.0, "duration_s": 362.0}

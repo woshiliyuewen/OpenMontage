@@ -1,0 +1,13 @@
+{
+  "version":"4.0",
+  "output_path":"C:\\Users\\24566\\Documents\\OpenMontage\\projects\\cc0-ai-face-swap-reference-style\\export\\ai-face-swap-editorial-v4-1080p.mp4",
+  "status":"pass",
+  "checks":{
+    "technical_probe":{"valid_container":true,"duration_seconds":45.376,"resolution":"1920x1080","fps":30,"has_audio":true,"codec":"H.264/AAC/yuv420p limited-range","file_size_bytes":19334501,"issues":[]},
+    "visual_spotcheck":{"full_screen_shading_detected":false,"source_brightness_preserved":true,"direct_content_overlay":true,"text_readable":true,"consecutive_frame_stability_checked":true,"issues":[]},
+    "audio_spotcheck":{"mean_volume_db":-26.5,"max_volume_db":-5.5,"clipping_detected":false,"issues":[]}
+  },
+  "issues_found":[],
+  "recommended_action":"present_to_user",
+  "metadata":{"pipeline":"hybrid","render_runtime":"remotion","finishing_runtime":"ffmpeg","external_api_used":false,"estimated_cost_usd":0}
+}

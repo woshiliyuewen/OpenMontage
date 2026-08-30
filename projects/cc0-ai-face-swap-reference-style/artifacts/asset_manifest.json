@@ -1,0 +1,13 @@
+{
+  "version": "1.0",
+  "assets": [
+    {"id":"anchor-video","type":"video","path":"assets/video/footage-cut.mp4","source_tool":"source_media_review","scene_id":"all-scenes","duration_seconds":45.066,"resolution":"848x480","format":"mp4","quality_score":0.82,"subtype":"source-footage","generation_summary":"Clean silence-cut master reused from the supplied project's source assets.","provider":"provided","license":"CC0 1.0"},
+    {"id":"subtitle-data","type":"subtitle","path":"assets/subtitles.json","source_tool":"subtitle_gen","scene_id":"all-scenes","duration_seconds":44.467,"format":"json","quality_score":0.94,"subtype":"simplified-chinese","generation_summary":"Existing approved Chinese subtitle timeline reused without retranslation.","provider":"local"},
+    {"id":"editorial-props","type":"animation","path":"assets/composition-props.json","source_tool":"remotion","scene_id":"all-scenes","duration_seconds":45.1,"resolution":"1920x1080","format":"json","quality_score":0.95,"subtype":"editorial-overlay-system","generation_summary":"Unified warm-white, charcoal and yellow source-visible editorial system with enlarged comparison, explanatory risk chain and persistent three-rule ending.","provider":"local-remotion"},
+    {"id":"editorial-cue","type":"audio","path":"assets/audio/editorial-cue.wav","source_tool":"ffmpeg","scene_id":"all-scenes","duration_seconds":0.45,"format":"wav","quality_score":0.9,"subtype":"transition-sfx","generation_summary":"Locally synthesized low-level filtered-noise cue used at four major information transitions.","provider":"local-ffmpeg"},
+    {"id":"face-tracking","type":"data","path":"artifacts/face_tracking.json","source_tool":"face_tracker","scene_id":"all-scenes","duration_seconds":45.098,"format":"json","quality_score":1.0,"subtype":"face-bounding-boxes","generation_summary":"269 locally sampled frames with face detection in every sample.","provider":"local-opencv"},
+    {"id":"overlay-placement","type":"data","path":"artifacts/overlay_placements.json","source_tool":"overlay_placement","scene_id":"all-scenes","duration_seconds":45.1,"format":"json","quality_score":0.95,"subtype":"face-safe-layout","generation_summary":"Stable per-overlay left/right placement with top-center and bottom-center fallback when both side zones are occupied.","provider":"local-geometry"}
+  ],
+  "total_cost_usd": 0,
+  "metadata": {"shared_support_assets":["editorial subtitle system","keyword callout system","evidence card system","transition cue"],"source_vs_generated_map":"Source speaker/audio remains anchor; all support graphics and cues are deterministic local composition.","music":"none","sound_design":"four low-level local transition cues","approval_policy":"full_run_authorized"}
+}
