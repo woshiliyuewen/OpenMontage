@@ -1,0 +1,7 @@
+{
+  "version":"6.0","project_id":"cc0-ai-face-swap-reference-style","pipeline_type":"hybrid","stage":"compose","status":"completed","timestamp":"2026-08-12T20:00:00+08:00","checkpoint_policy":"guided","human_approval_required":false,"human_approved":false,
+  "artifacts":{"render_report":"artifacts/render_report_v6.json","final_review":"artifacts/final_review_v6.json","face_tracking":"artifacts/face_tracking.json","overlay_placements":"artifacts/overlay_placements.json"},
+  "review":{"decision":"PASS","round":1,"findings":[],"summary":{"critical":0,"suggestions":0,"success_criteria":"met"}},
+  "cost_snapshot":{"spent_usd":0,"estimated_total_usd":0},
+  "metadata":{"render_runtime":"remotion","qa_status":"pass","previous_versions_preserved":true}
+}

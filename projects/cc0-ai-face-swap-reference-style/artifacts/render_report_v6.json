@@ -1,0 +1,6 @@
+{
+  "version":"6.0",
+  "outputs":[{"path":"export/ai-face-swap-editorial-v6-auto-placement-1080p.mp4","format":"mp4","codec":"h264","audio_codec":"aac","resolution":"1920x1080","fps":30,"duration_seconds":45.376,"file_size_bytes":19323767,"platform_target":"generic_hd"}],
+  "verification_notes":["Analyzed 269 face samples across the complete source video.","Each side-card interval receives one stable position based on worst-case padded face overlap.","Preferred side is retained when safe, otherwise the opposite side is used; safest center-top or center-bottom is available when both sides are occupied.","Four representative overlay frames and consecutive motion frames passed visual review."],
+  "metadata":{"pipeline":"hybrid","render_runtime":"remotion","analysis_tools":["face_tracker","overlay_placement"],"external_api_used":false,"total_cost_usd":0}
+}

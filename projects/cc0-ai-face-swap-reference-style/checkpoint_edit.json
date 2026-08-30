@@ -1,0 +1,91 @@
+{
+  "version": "1.0",
+  "project_id": "cc0-ai-face-swap-reference-style",
+  "pipeline_type": "hybrid",
+  "stage": "edit",
+  "status": "completed",
+  "timestamp": "2026-08-12T07:52:52.269888+00:00",
+  "checkpoint_policy": "guided",
+  "human_approval_required": false,
+  "human_approved": false,
+  "artifacts": {
+    "edit_decisions": {
+      "version": "1.0",
+      "cuts": [
+        {
+          "id": "anchor-cut",
+          "source": "anchor-video",
+          "in_seconds": 0,
+          "out_seconds": 45.066,
+          "speed": 1,
+          "layer": "primary",
+          "transition_in": "cut",
+          "transition_out": "cut",
+          "transition_duration": 0,
+          "reason": "Preserve the already tightened source edit and original audio."
+        }
+      ],
+      "overlays": [],
+      "audio": {
+        "narration": {
+          "segments": [
+            {
+              "asset_id": "anchor-video",
+              "start_seconds": 0,
+              "end_seconds": 45.066
+            }
+          ]
+        },
+        "sfx": []
+      },
+      "subtitles": {
+        "enabled": true,
+        "style": "sentence",
+        "source": "subtitle-data",
+        "font": "Microsoft YaHei",
+        "font_size": 50,
+        "color": "#FFFFFF",
+        "outline_color": "#000000",
+        "background": "transparent",
+        "position": "bottom-center",
+        "max_words_per_line": 24
+      },
+      "renderer_family": "presenter",
+      "render_runtime": "remotion",
+      "composition_mode": "templated",
+      "slideshow_risk_score": {
+        "average": 0.75,
+        "verdict": "strong"
+      },
+      "metadata": {
+        "proposal_render_runtime": "remotion",
+        "anchor_cut_notes": "Coherent source dialogue and silence-cut timing retained.",
+        "layer_order": [
+          "anchor video",
+          "editorial support",
+          "Chinese subtitles"
+        ],
+        "overlay_windows": "Defined in assets/composition-props.json",
+        "music": "none",
+        "source_to_support_ratio": "70/30",
+        "estimated_cost_usd": 0
+      }
+    }
+  },
+  "style_playbook": "clean-professional",
+  "review": {
+    "decision": "PASS",
+    "round": 1,
+    "findings": [],
+    "summary": {
+      "critical": 0,
+      "suggestions": 0,
+      "success_criteria": "met"
+    }
+  },
+  "cost_snapshot": {
+    "spent_usd": 0,
+    "estimated_total_usd": 0
+  },
+  "metadata": {}
+}

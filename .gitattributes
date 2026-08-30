@@ -49,3 +49,9 @@ Makefile    text eol=lf
 *.ttf   binary
 *.otf   binary
 *.pdf   binary
+
+# Curated video case-study media is stored with Git LFS to keep repository
+# history lightweight while preserving all published versions.
+projects/cc0-ai-face-swap-reference-style/export/*.mp4 filter=lfs diff=lfs merge=lfs -text
+projects/cc0-ai-face-swap-reference-style/assets/video/*.mp4 filter=lfs diff=lfs merge=lfs -text
+projects/cc0-ai-face-swap-reference-style/assets/audio/*.wav filter=lfs diff=lfs merge=lfs -text

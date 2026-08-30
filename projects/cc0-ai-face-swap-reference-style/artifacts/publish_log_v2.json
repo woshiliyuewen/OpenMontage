@@ -1,0 +1,21 @@
+{
+  "version": "2.0",
+  "entries": [
+    {
+      "platform": "local-master",
+      "status": "exported",
+      "visibility": "private",
+      "export_path": "export/ai-face-swap-editorial-v2-1080p.mp4",
+      "timestamp": "2026-08-12T16:00:00+08:00",
+      "metadata_used": {
+        "title": "AI换脸：用途、风险与使用边界（优化版）",
+        "revision": "V2 — cards, captions, and motion"
+      }
+    }
+  ],
+  "metadata": {
+    "master_output": "export/ai-face-swap-editorial-v2-1080p.mp4",
+    "previous_master_preserved": "export/ai-face-swap-editorial-master-1080p.mp4",
+    "estimated_cost_usd": 0
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "version": "1.0",
+  "project_id": "cc0-ai-face-swap-reference-style",
+  "pipeline_type": "hybrid",
+  "stage": "compose",
+  "status": "completed",
+  "timestamp": "2026-08-12T07:59:07.652303+00:00",
+  "checkpoint_policy": "guided",
+  "human_approval_required": false,
+  "human_approved": false,
+  "artifacts": {
+    "render_report": {
+      "version": "1.0",
+      "outputs": [
+        {
+          "path": "renders/final-delivery.mp4",
+          "format": "mp4",
+          "codec": "h264",
+          "audio_codec": "aac",
+          "resolution": "1920x1080",
+          "fps": 30,
+          "duration_seconds": 45.376,
+          "file_size_bytes": 12240785,
+          "platform_target": "generic_hd"
+        }
+      ],
+      "warnings": [
+        "The supplied source image is 848x480, so presenter sharpness is limited by the original footage while overlays render at native 1080p."
+      ],
+      "verification_notes": [
+        "Container, duration, resolution, frame rate, H.264/AAC codecs, audio presence, and yuv420p pixel format passed validation.",
+        "Eight delivery frames were inspected across opening, information-card, comparison, risk, recommendation, and ending beats.",
+        "Audio spot checks found intelligible speech and no clipping.",
+        "Original source file was not modified."
+      ],
+      "render_grammar": "presenter",
+      "slideshow_risk_score": {
+        "average": 0.75,
+        "verdict": "strong \u2014 continuous source video remains the anchor while designed cards punctuate key claims"
+      },
+      "decision_log_ref": "decision_log.json",
+      "final_review_ref": "artifacts/final_review.json",
+      "metadata": {
+        "pipeline": "hybrid",
+        "render_runtime": "remotion",
+        "composition_mode": "templated-customized",
+        "style_playbook": "clean-professional",
+        "source_to_support_ratio": "70/30",
+        "music": "none",
+        "total_cost_usd": 0
+      }
+    },
+    "final_review": {
+      "version": "1.0",
+      "output_path": "C:\\Users\\24566\\Documents\\OpenMontage\\projects\\cc0-ai-face-swap-reference-style\\renders\\final-delivery.mp4",
+      "status": "pass",
+      "checks": {
+        "technical_probe": {
+          "valid_container": true,
+          "duration_seconds": 45.376,
+          "resolution": "1920x1080",
+          "fps": 30,
+          "has_audio": true,
+          "codec": "H.264 video / AAC audio / yuv420p",
+          "file_size_bytes": 12240785,
+          "issues": []
+        },
+        "visual_spotcheck": {
+          "frames_sampled": 8,
+          "frame_paths": [
+            "qa/delivery_frames/frame_1_0s.jpg",
+            "qa/delivery_frames/frame_6_5s.jpg",
+            "qa/delivery_frames/frame_11_0s.jpg",
+            "qa/delivery_frames/frame_17_0s.jpg",
+            "qa/delivery_frames/frame_23_0s.jpg",
+            "qa/delivery_frames/frame_31_0s.jpg",
+            "qa/delivery_frames/frame_39_0s.jpg",
+            "qa/delivery_frames/frame_44_0s.jpg"
+          ],
+          "black_frames_detected": false,
+          "broken_overlays": false,
+          "missing_assets": false,
+          "unreadable_text": false,
+          "issues": []
+        },
+        "audio_spotcheck": {
+          "narration_present": true,
+          "music_present": false,
+          "unexpected_silence": false,
+          "clipping_detected": false,
+          "mix_intelligible": true,
+          "issues": []
+        },
+        "promise_preservation": {
+          "delivery_promise_honored": true,
+          "renderer_family_used": "presenter",
+          "render_runtime_used": "remotion",
+          "runtime_swap_detected": false,
+          "runtime_swap_check": "ok \u2014 Remotion was locked in edit decisions and used for the final render",
+          "motion_ratio_actual": 1.0,
+          "silent_downgrade_detected": false,
+          "issues": []
+        },
+        "subtitle_check": {
+          "subtitles_expected": true,
+          "subtitles_present": true,
+          "coverage_ratio": 0.94,
+          "timing_drift_detected": false,
+          "issues": []
+        },
+        "transcript_comparison": {
+          "transcript_matches_script": true,
+          "word_accuracy": 1.0,
+          "issues": []
+        }
+      },
+      "issues_found": [],
+      "recommended_action": "present_to_user",
+      "metadata": {
+        "review_method": "ffprobe plus visual_qa frame sampling and audio-level checks",
+        "visual_language": "charcoal, warm white, and yellow editorial cards with bold Chinese subtitles",
+        "source_quality_note": "The 848x480 source footage is upscaled inside a native 1920x1080 composition; graphic overlays remain native-resolution.",
+        "estimated_cost_usd": 0
+      }
+    }
+  },
+  "style_playbook": "clean-professional",
+  "review": {
+    "decision": "PASS",
+    "round": 1,
+    "findings": [],
+    "summary": {
+      "critical": 0,
+      "suggestions": 0,
+      "success_criteria": "met"
+    }
+  },
+  "cost_snapshot": {
+    "spent_usd": 0,
+    "estimated_total_usd": 0
+  },
+  "metadata": {
+    "render_runtime": "remotion",
+    "qa_status": "pass"
+  }
+}

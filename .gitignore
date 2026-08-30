@@ -26,7 +26,15 @@ pipeline/
 tests/qa/output/
 
 # Project workspaces (generated assets, renders — all regenerable)
-projects/
+projects/*
+
+# Curated case study: keep deliverables and production decisions, but exclude
+# heavyweight intermediate renders, QA frame dumps, and local history snapshots.
+!projects/cc0-ai-face-swap-reference-style/
+projects/cc0-ai-face-swap-reference-style/renders/
+projects/cc0-ai-face-swap-reference-style/qa/
+projects/cc0-ai-face-swap-reference-style/history/
+projects/cc0-ai-face-swap-reference-style/export/*_frames/
 
 # Corpus directories (downloaded stock clips, thumbnails, embeddings —
 # regenerable from source APIs via corpus_builder). Explicit rule even

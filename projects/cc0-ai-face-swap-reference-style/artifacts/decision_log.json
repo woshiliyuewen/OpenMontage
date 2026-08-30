@@ -1,0 +1,158 @@
+{
+  "version": "1.0",
+  "project_id": "cc0-ai-face-swap-reference-style",
+  "decisions": [
+    {
+      "decision_id": "d-001",
+      "stage": "idea",
+      "category": "pipeline_selection",
+      "subject": "Production pipeline",
+      "options_considered": [
+        {"option_id": "hybrid", "label": "Hybrid", "score": 0.96, "reason": "Preserves the supplied talking-head as anchor while adding designed evidence layers."},
+        {"option_id": "talking-head", "label": "Talking Head", "score": 0.75, "reason": "Fits the source but its beta pipeline is less explicit about full-screen support scenes.", "rejected_because": "The requested reference treatment relies on evidence cards and mixed support layers."},
+        {"option_id": "animation", "label": "Animation", "score": 0.28, "reason": "Would displace the authentic source speaker.", "rejected_because": "Source footage must remain primary."}
+      ],
+      "selected": "hybrid",
+      "reason": "The requested treatment is source-led with purposeful support visuals.",
+      "user_visible": true,
+      "user_approved": true,
+      "confidence": 0.96
+    },
+    {
+      "decision_id": "d-002",
+      "stage": "idea",
+      "category": "render_runtime_selection",
+      "subject": "Composition runtime",
+      "options_considered": [
+        {"option_id": "remotion", "label": "Remotion", "score": 0.94, "reason": "Best fit for frame-accurate source video, subtitle timing, and React overlays in one pass."},
+        {"option_id": "hyperframes", "label": "HyperFrames", "score": 0.72, "reason": "Strong for HTML/GSAP typography.", "rejected_because": "More complex than needed for a 45-second source-led edit and less aligned with the existing caption timeline."},
+        {"option_id": "ffmpeg", "label": "FFmpeg", "score": 0.45, "reason": "Reliable for encoding and simple overlays.", "rejected_because": "Insufficiently expressive for the requested animated editorial hierarchy."}
+      ],
+      "selected": "remotion",
+      "reason": "It preserves source synchronization while supporting the reference-style typography and evidence cards.",
+      "user_visible": true,
+      "user_approved": true,
+      "confidence": 0.94
+    },
+    {
+      "decision_id": "d-003",
+      "stage": "idea",
+      "category": "composition_mode",
+      "subject": "Composition authoring mode",
+      "options_considered": [
+        {"option_id": "templated-custom", "label": "Customized template", "score": 0.92, "reason": "Extends the stable presenter composition with a new editorial overlay system."},
+        {"option_id": "atelier", "label": "Atelier", "score": 0.68, "reason": "Would maximize uniqueness.", "rejected_because": "The brief asks for an existing reference grammar and the low-resolution source benefits from restrained customization."}
+      ],
+      "selected": "templated-custom",
+      "reason": "A controlled extension gives the requested look without unnecessary production risk.",
+      "user_visible": true,
+      "user_approved": true,
+      "confidence": 0.9
+    },
+    {
+      "decision_id": "d-004",
+      "stage": "idea",
+      "category": "music_source",
+      "subject": "Background music",
+      "options_considered": [
+        {"option_id": "none", "label": "No music", "score": 0.9, "reason": "Keeps the non-native English speech maximally intelligible and matches the restrained reference."},
+        {"option_id": "pixabay", "label": "Pixabay royalty-free music", "score": 0.55, "reason": "Available at no API charge.", "rejected_because": "Adds little value to this short cautionary explainer."}
+      ],
+      "selected": "none",
+      "reason": "Speech clarity is the audio priority.",
+      "user_visible": true,
+      "user_approved": true,
+      "confidence": 0.88
+    },
+    {
+      "decision_id": "d-005",
+      "stage": "idea",
+      "category": "approval_policy",
+      "subject": "Human approval gates",
+      "options_considered": [
+        {"option_id": "full-run", "label": "Full-run preauthorization", "score": 1.0, "reason": "The user explicitly requested that no questions be asked throughout."},
+        {"option_id": "guided", "label": "Per-stage approval", "score": 0.1, "reason": "Normal manifest policy.", "rejected_because": "Contradicts the user's explicit no-questions instruction."}
+      ],
+      "selected": "full-run",
+      "reason": "The user's instruction is explicit full-run authorization within the requested scope.",
+      "user_visible": true,
+      "user_approved": true,
+      "confidence": 1.0
+    },
+    {
+      "decision_id": "d-006",
+      "stage": "edit",
+      "category": "revision_scope",
+      "subject": "V3 editorial refinement",
+      "options_considered": [
+        {"option_id": "source-visible-overlays", "label": "Source-visible overlays", "score": 0.96, "reason": "Preserves presenter continuity while improving explanatory density."},
+        {"option_id": "full-black-cards", "label": "Full black cards", "score": 0.42, "reason": "High contrast but visually disconnects the presenter.", "rejected_because": "The user asked to optimize all visible issues except source quality."}
+      ],
+      "selected": "source-visible-overlays",
+      "reason": "Unifies the visual system, enlarges information and reduces disruptive black-screen time.",
+      "user_visible": true,
+      "user_approved": true,
+      "confidence": 0.96
+    },
+    {
+      "decision_id": "d-007",
+      "stage": "assets",
+      "category": "sound_design",
+      "subject": "Transition sound layer",
+      "options_considered": [
+        {"option_id": "local-cues", "label": "Local subtle cues", "score": 0.92, "reason": "Adds structure without external APIs or masking speech."},
+        {"option_id": "generated-music", "label": "API-generated music", "score": 0.35, "reason": "Could add energy.", "rejected_because": "No external API was needed and speech clarity remains the priority."}
+      ],
+      "selected": "local-cues",
+      "reason": "Four quiet transition cues add polish at zero API cost.",
+      "user_visible": true,
+      "user_approved": true,
+      "confidence": 0.92
+    },
+    {
+      "decision_id": "d-008",
+      "stage": "edit",
+      "category": "visual_treatment",
+      "subject": "Full-screen readability layer",
+      "options_considered": [
+        {"option_id": "direct-overlay", "label": "Direct content overlay", "score": 0.98, "reason": "Preserves the original image brightness and makes the graphics feel native to the footage."},
+        {"option_id": "full-screen-shade", "label": "Full-screen translucent shade", "score": 0.38, "reason": "Guarantees contrast but visually recreates a black chapter page.", "rejected_because": "The user explicitly preferred direct content display."}
+      ],
+      "selected": "direct-overlay",
+      "reason": "Only text shadows and local card surfaces remain; no full-frame darkening is applied.",
+      "user_visible": true,
+      "user_approved": true,
+      "confidence": 0.99
+    },
+    {
+      "decision_id": "d-009",
+      "stage": "edit",
+      "category": "visual_treatment",
+      "subject": "Editorial card outer container",
+      "options_considered": [
+        {"option_id": "content-card-only", "label": "Content card only", "score": 0.99, "reason": "Removes the unintended translucent outer plate while preserving the designed content card."},
+        {"option_id": "shadowed-wrapper", "label": "Shadowed outer wrapper", "score": 0.2, "reason": "Creates an unnecessary second visual layer.", "rejected_because": "The user identified it as an unwanted transparent layer."}
+      ],
+      "selected": "content-card-only",
+      "reason": "All editorial wrapper shadows, rounding and clipping were disabled.",
+      "user_visible": true,
+      "user_approved": true,
+      "confidence": 1.0
+    },
+    {
+      "decision_id":"d-010",
+      "stage":"scene_plan",
+      "category":"overlay_placement",
+      "subject":"Information card position selection",
+      "options_considered":[
+        {"option_id":"face-safe-auto","label":"Face-safe automatic placement","score":0.98,"reason":"Uses the full overlay interval to select a stable safe zone and supports center fallback."},
+        {"option_id":"fixed-presets","label":"Fixed side presets","score":0.48,"reason":"Simple but cannot react to speaker position.","rejected_because":"The user requested automatic left/right recognition with center fallback."}
+      ],
+      "selected":"face-safe-auto",
+      "reason":"Prefer the configured side when safe, switch sides if occupied, otherwise choose the safer of top-center and bottom-center.",
+      "user_visible":true,
+      "user_approved":true,
+      "confidence":0.98
+    }
+  ]
+}

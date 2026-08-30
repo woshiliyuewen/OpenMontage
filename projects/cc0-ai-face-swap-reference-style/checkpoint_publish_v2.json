@@ -1,0 +1,34 @@
+{
+  "version": "2.0",
+  "project_id": "cc0-ai-face-swap-reference-style",
+  "pipeline_type": "hybrid",
+  "stage": "publish",
+  "status": "completed",
+  "timestamp": "2026-08-12T16:00:00+08:00",
+  "checkpoint_policy": "guided",
+  "human_approval_required": true,
+  "human_approved": true,
+  "artifacts": {
+    "render_report": "artifacts/render_report_v2.json",
+    "final_review": "artifacts/final_review_v2.json",
+    "publish_log": "artifacts/publish_log_v2.json"
+  },
+  "review": {
+    "decision": "PASS",
+    "findings": [],
+    "summary": {
+      "critical": 0,
+      "suggestions": 0,
+      "success_criteria": "met"
+    }
+  },
+  "cost_snapshot": {
+    "spent_usd": 0,
+    "estimated_total_usd": 0
+  },
+  "metadata": {
+    "approval_basis": "User explicitly requested direct V2 regeneration without questions.",
+    "export_ready": true,
+    "previous_version_preserved": true
+  }
+}

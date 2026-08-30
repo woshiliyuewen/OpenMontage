@@ -1,0 +1,36 @@
+{
+  "version": "1.0",
+  "title": "AI换脸：用途、风险与谨慎使用",
+  "hook": "AI换脸不只是一个有趣的效果——同一种技术，为什么既能帮助教学，也可能给人带来现实麻烦？",
+  "key_points": [
+    "展示AI换脸的基本概念与示例对象",
+    "用正反对照解释技术的用途与风险",
+    "用证据卡和风险链路替代装饰性素材",
+    "以谨慎使用作为明确结论"
+  ],
+  "core_message": "技术本身有两面性，使用方式决定结果，因此AI换脸必须谨慎使用。",
+  "cta": "谨慎使用AI换脸，并在分享前考虑可能造成的后果。",
+  "tone": "可信、克制、分析型，案例段提高视觉密度",
+  "style": "clean-professional定制：炭黑、白、亮黄；底部粗体字幕、黄白重点字、证据卡、硬切",
+  "target_audience": "对AI换脸感兴趣的普通观众与内容创作者",
+  "target_platform": "generic",
+  "target_duration_seconds": 45.1,
+  "reference_material": [
+    "C:/Users/24566/Documents/OpenMontage/projects/cc0-raw-video-cn-subtitle-test/renders/final.mp4",
+    "C:/Users/24566/Documents/OpenMontage/projects/reference-analysis-69c64123/video_analysis_brief.json"
+  ],
+  "selected_angle": "证据驱动的技术两面性",
+  "metadata": {
+    "anchor_medium": "talking_head",
+    "source_inventory": ["45秒英文真人口播", "简体中文字幕时间轴"],
+    "support_layers": ["editorial subtitles", "yellow keyword callouts", "evidence cards", "comparison card", "final advice card"],
+    "source_to_support_ratio": "70/30",
+    "deliverable_mix": ["16:9 hero cut"],
+    "render_runtime": "remotion",
+    "renderer_family": "presenter",
+    "composition_mode": "templated-customized",
+    "music": "none — preserve speech clarity and reference restraint",
+    "approval_policy": "full_run_authorized_by_user_no_questions",
+    "estimated_cost_usd": 0
+  }
+}

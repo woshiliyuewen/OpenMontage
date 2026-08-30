@@ -1,0 +1,122 @@
+{
+  "cues": [
+    {
+      "index": 1,
+      "start": 0.189,
+      "end": 4.809,
+      "text": "\u5927\u5bb6\u597d\uff0c\u8fd9\u662f\u4e00\u4e2a\u4f7f\u7528\u4eba\u5de5\u667a\u80fd\u8fdb\u884c\u6362\u8138\u7684\u793a\u4f8b\u3002",
+      "words": [
+        {
+          "word": "\u5927\u5bb6\u597d\uff0c\u8fd9\u662f\u4e00\u4e2a\u4f7f\u7528\u4eba\u5de5\u667a\u80fd\u8fdb\u884c\u6362\u8138\u7684\u793a\u4f8b\u3002",
+          "start": 0.189,
+          "end": 4.809
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "start": 5.128,
+      "end": 9.105,
+      "text": "\u63a5\u4e0b\u6765\uff0c\u6211\u4f1a\u628a\u81ea\u5df1\u7684\u8138\u6362\u6210\u8457\u540d\u6f14\u5458\u6c64\u59c6\u00b7\u514b\u9c81\u65af\u7684\u8138\u3002",
+      "words": [
+        {
+          "word": "\u63a5\u4e0b\u6765\uff0c\u6211\u4f1a\u628a\u81ea\u5df1\u7684\u8138\u6362\u6210\u8457\u540d\u6f14\u5458\u6c64\u59c6\u00b7\u514b\u9c81\u65af\u7684\u8138\u3002",
+          "start": 5.128,
+          "end": 9.105
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "start": 9.511,
+      "end": 13.691,
+      "text": "\u8fd9\u9879\u6280\u672f\u6709\u5176\u81ea\u8eab\u7684\u4f18\u70b9\u548c\u7f3a\u70b9\u3002",
+      "words": [
+        {
+          "word": "\u8fd9\u9879\u6280\u672f\u6709\u5176\u81ea\u8eab\u7684\u4f18\u70b9\u548c\u7f3a\u70b9\u3002",
+          "start": 9.511,
+          "end": 13.691
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "start": 14.554,
+      "end": 21.227,
+      "text": "\u4ece\u5408\u4e4e\u4f26\u7406\u7684\u89d2\u5ea6\u6765\u8bf4\uff0c\u8fd9\u9879\u6280\u672f\u53ef\u4ee5\u7528\u4e8e\u5f00\u5c55\u5728\u7ebf\u8bfe\u7a0b\u7684\u673a\u6784\u3002",
+      "words": [
+        {
+          "word": "\u4ece\u5408\u4e4e\u4f26\u7406\u7684\u89d2\u5ea6\u6765\u8bf4\uff0c\u8fd9\u9879\u6280\u672f\u53ef\u4ee5\u7528\u4e8e\u5f00\u5c55\u5728\u7ebf\u8bfe\u7a0b\u7684\u673a\u6784\u3002",
+          "start": 14.554,
+          "end": 21.227
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "start": 21.556,
+      "end": 25.071,
+      "text": "\u800c\u5982\u679c\u4ee5\u4e0d\u9053\u5fb7\u7684\u65b9\u5f0f\u4f7f\u7528\uff0c\u5b83\u4f1a\u5e26\u6765\u8bb8\u591a\u5f0a\u7aef\u3002",
+      "words": [
+        {
+          "word": "\u800c\u5982\u679c\u4ee5\u4e0d\u9053\u5fb7\u7684\u65b9\u5f0f\u4f7f\u7528\uff0c\u5b83\u4f1a\u5e26\u6765\u8bb8\u591a\u5f0a\u7aef\u3002",
+          "start": 21.556,
+          "end": 25.071
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "start": 25.071,
+      "end": 28.151,
+      "text": "\u6bd4\u5982\uff0c\u4e00\u6bb5\u89c6\u9891\u53ef\u80fd\u88ab\u53d1\u9001\u7ed9\u4f60\u7684\u670b\u53cb\uff0c",
+      "words": [
+        {
+          "word": "\u6bd4\u5982\uff0c\u4e00\u6bb5\u89c6\u9891\u53ef\u80fd\u88ab\u53d1\u9001\u7ed9\u4f60\u7684\u670b\u53cb\uff0c",
+          "start": 25.071,
+          "end": 28.151
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "start": 28.151,
+      "end": 36.555,
+      "text": "\u6216\u88ab\u63d0\u4ea4\u7ed9\u67d0\u4e2a\u673a\u6784\uff0c\u4ece\u800c\u7ed9\u4f60\u5e26\u6765\u8bb8\u591a\u4e0d\u5fc5\u8981\u7684\u9ebb\u70e6\u3002",
+      "words": [
+        {
+          "word": "\u6216\u88ab\u63d0\u4ea4\u7ed9\u67d0\u4e2a\u673a\u6784\uff0c\u4ece\u800c\u7ed9\u4f60\u5e26\u6765\u8bb8\u591a\u4e0d\u5fc5\u8981\u7684\u9ebb\u70e6\u3002",
+          "start": 28.151,
+          "end": 36.555
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "start": 37.115,
+      "end": 42.015,
+      "text": "\u56e0\u6b64\uff0c\u5efa\u8bae\u5927\u5bb6\u52a1\u5fc5\u8c28\u614e\u4f7f\u7528\u8fd9\u9879\u6280\u672f\u3002",
+      "words": [
+        {
+          "word": "\u56e0\u6b64\uff0c\u5efa\u8bae\u5927\u5bb6\u52a1\u5fc5\u8c28\u614e\u4f7f\u7528\u8fd9\u9879\u6280\u672f\u3002",
+          "start": 37.115,
+          "end": 42.015
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "start": 42.234,
+      "end": 44.467,
+      "text": "\u8c22\u8c22\uff0c\u5e0c\u671b\u4f60\u559c\u6b22\u8fd9\u4e2a\u793a\u4f8b\u3002",
+      "words": [
+        {
+          "word": "\u8c22\u8c22\uff0c\u5e0c\u671b\u4f60\u559c\u6b22\u8fd9\u4e2a\u793a\u4f8b\u3002",
+          "start": 42.234,
+          "end": 44.467
+        }
+      ]
+    }
+  ],
+  "highlight_style": "none"
+}
